@@ -1,15 +1,15 @@
 <!DOCTYPE html><!--  Last Published: Mon Mar 02 2026 20:46:52 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="6717b71db3066f8ab07a7ef0" data-wf-site="664c7876d83b34499b5688a0" lang="en">
+<html data-wf-page="665f10aa0cf47153f412ec3b" data-wf-site="664c7876d83b34499b5688a0" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Institutional Security</title>
-  <meta content="Marinade Native Staking maximize your returns while contributing to the security and decentralization of the Solana network." name="description">
-  <meta content="Institutional Security" property="og:title">
-  <meta content="Marinade Native Staking maximize your returns while contributing to the security and decentralization of the Solana network." property="og:description">
-  <meta content="https://cdn.prod.website-files.com/664c7876d83b34499b5688a0/6854581822dd647c3c0fc084_OpenGraph-web-7.png" property="og:image">
-  <meta content="Institutional Security" property="twitter:title">
-  <meta content="Marinade Native Staking maximize your returns while contributing to the security and decentralization of the Solana network." property="twitter:description">
-  <meta content="https://cdn.prod.website-files.com/664c7876d83b34499b5688a0/6854581822dd647c3c0fc084_OpenGraph-web-7.png" property="twitter:image">
+  <title>Marinade Blog &amp; Solana Staking News</title>
+  <meta content="Stay up to date on how Marinade is cooking up new recipes to deliver a prosperous Solana ecosystem." name="description">
+  <meta content="Marinade Blog &amp; Solana Staking News" property="og:title">
+  <meta content="Stay up to date on how Marinade is cooking up new recipes to deliver a prosperous Solana ecosystem." property="og:description">
+  <meta content="https://cdn.prod.website-files.com/664c7876d83b34499b5688a0/685458180271f56dc9d6eeed_OpenGraph-web-3.png" property="og:image">
+  <meta content="Marinade Blog &amp; Solana Staking News" property="twitter:title">
+  <meta content="Stay up to date on how Marinade is cooking up new recipes to deliver a prosperous Solana ecosystem." property="twitter:description">
+  <meta content="https://cdn.prod.website-files.com/664c7876d83b34499b5688a0/685458180271f56dc9d6eeed_OpenGraph-web-3.png" property="twitter:image">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -497,7 +497,7 @@ html { font-size: 1rem; }
                         <div class="r_nav_body_dropdown-item-heading">Solana staking guide</div>
                         <div class="r_nav_body_dropdown-item-description">Basics of staking explained</div>
                       </a>
-                      <a href="blog.html" class="r_nav_body_dropdown-item w-inline-block">
+                      <a href="blog.html" aria-current="page" class="r_nav_body_dropdown-item w-inline-block w--current">
                         <div class="r_nav_body_dropdown-item-heading">Blog</div>
                         <div class="r_nav_body_dropdown-item-description">News and insight from Marinade</div>
                       </a>
@@ -775,78 +775,14 @@ html { font-size: 1rem; }
       <section class="section_hero">
         <div class="padding-section-large is-hero">
           <div class="padding-global">
-            <div class="container-large hero_2-0">
-              <div class="hero_component hero_2-0 hero_centered">
-                <div class="hero-content hero-20 mnde">
-                  <div class="max-width-large hero-20 gap-med">
-                    <div class="w-layout-vflex header-heading align-center">
-                      <p class="text-heading-label">Marinade Native for Institutions</p>
-                      <h1 class="hero_heading hero_2-0 internal_page">Secure SOL Staking for Institutions</h1>
-                    </div>
-                    <p class="text-size-medium hero-paragraph hero-2-0 text-align-center">Built on audited open-source code, Marinade also offers “protected staking rewards” to keep SOL staking yields stable</p>
+            <div class="container-large">
+              <div class="hero_component">
+                <div class="text-align-center">
+                  <div id="w-node-c2cee7d6-e595-d0b4-6658-29092aea2952-f412ec3b" class="margin-bottom margin-small">
+                    <h1 class="hero_heading">Read Stories from the Kitchen</h1>
                   </div>
-                  <div class="hero-buttons-new margin-top margin-small">
-                    <a data-text="Stake now" data-category="optimize_your_staking" data-subcategory="optimize_your_staking" data-position="header" href="#contact-form" class="button is-brand hero_30 w-button">Submit form</a>
-                  </div>
-                </div>
-              </div>
-              <div class="hero-logos margin-top margin-large">
-                <div class="logos-section-label">Marinade’s security is audited by</div>
-                <div class="logos-wrapper">
-                  <a href="https://www.sec3.dev/" target="_blank" class="logo-link w-inline-block"><img src="images/Sec3.svg" loading="lazy" alt="Sec3" class="logo-wrapper"></a>
-                  <a href="https://ackee.xyz/" target="_blank" class="logo-link w-inline-block"><img src="images/Ackee.svg" loading="lazy" alt="ackee" class="logo-wrapper"></a>
-                  <a href="https://www.halborn.com/" target="_blank" class="logo-link w-inline-block"><img src="images/Halborn.svg" loading="lazy" alt="Halborn" class="logo-wrapper"></a>
-                  <a href="https://neodyme.io/en/" target="_blank" class="logo-link w-inline-block"><img src="images/Nd.svg" loading="lazy" alt="Nd" class="logo-wrapper"></a>
-                  <a href="https://kudelskisecurity.com/" target="_blank" class="logo-link w-inline-block"><img src="images/Kudelsky.svg" loading="lazy" alt="Kudelski Security" class="logo-wrapper"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="section_security_bento">
-        <div class="padding-section-medium is-features">
-          <div class="padding-global">
-            <div class="container-large hero_2-0 centered gap-2rem">
-              <div class="max-width-medium gap-med align-center">
-                <div class="w-layout-vflex header-heading align-center">
-                  <p class="text-heading-label">Why Marinade</p>
-                  <h2 class="heading-2 hero_2-0">Staking at its best</h2>
-                </div>
-                <p class="text-size-medium text-align-center">How to easily and securely earn staking rewards with Solana.</p>
-              </div>
-              <div class="margin-top margin-huge">
-                <a href="https://app.marinade.finance/" class="button is-huge is-brand w-button">Optimize your staking</a>
-              </div>
-              <div class="bento-home">
-                <div id="w-node-db98a916-55b4-313e-ce70-40b036f0b989-b07a7ef0" class="bento-card small"><img src="images/illustration-staking-quality.svg" loading="lazy" alt="Uphold to Staking Quality" height="Auto" class="bento-pic">
-                  <div class="bento-card-text">
-                    <h4 class="bento-card-heading">Uphold to staking quality</h4>
-                    <p class="text-size-small bento-card-paragraph">We block any nation on the OFAC list and we keep validators true to their performance.</p>
-                  </div>
-                </div>
-                <div id="w-node-db98a916-55b4-313e-ce70-40b036f0b990-b07a7ef0" class="bento-card small"><img src="images/illustration-safe-rewards.svg" loading="lazy" alt="Your Rewards Are Safe" height="Auto" class="bento-pic">
-                  <div class="bento-card-text">
-                    <h4 class="bento-card-heading">Your rewards are safe</h4>
-                    <p class="text-size-small bento-card-paragraph">Protected staking rewards and on-chain SLAs keep your returns coming.</p>
-                  </div>
-                </div>
-                <div id="w-node-db98a916-55b4-313e-ce70-40b036f0b999-b07a7ef0" class="bento-card small"><img src="images/illustration-PSR.svg" loading="lazy" width="Auto" height="Auto" alt="Solana&#x27;s protected staking rewards" class="bento-pic">
-                  <div class="bento-card-text">
-                    <h4 class="bento-card-heading">Solana&#x27;s protected staking rewards</h4>
-                    <p class="text-size-small bento-card-paragraph">Staking rewards paid out in every epoch (55 hours) are insured even in case of validator downtime.</p>
-                  </div>
-                </div>
-                <div id="w-node-db98a916-55b4-313e-ce70-40b036f0b9a2-b07a7ef0" class="bento-card wide"><img src="images/illustration-vetting-wide.svg" loading="lazy" alt="Stringent validator vetting" class="bento-pic wide select"><img src="images/illustration-vetting-short.svg" loading="lazy" alt="Stringent validator vetting" class="bento-pic select short">
-                  <div class="bento-card-text">
-                    <h4 class="bento-card-heading">Stringent validator vetting</h4>
-                    <p class="text-size-small bento-card-paragraph">To ensure consistent high performance and reliable rewards when staking with Marinade. All OFAC nations are blocked from ever becoming validators.</p>
-                  </div>
-                </div>
-                <div id="w-node-db98a916-55b4-313e-ce70-40b036f0b9aa-b07a7ef0" class="bento-card wide"><img src="images/illustration-security-wide.svg" loading="lazy" alt="Institutional-grade security " class="bento-pic wide unstake"><img src="images/illustration-security-short.svg" loading="lazy" alt="Institutional-grade security " class="bento-pic short unstake">
-                  <div class="bento-card-text">
-                    <h4 class="bento-card-heading">Institutional-grade security</h4>
-                    <p class="text-size-small bento-card-paragraph">Robust and open-source code thoroughly audited by leading security agencies. Marinade Native clients always keep withdrawal authority over their SOL.</p>
+                  <div class="max-width-medium align-center">
+                    <p class="text-size-medium text-align-center">Stay up to date on how Marinade is cooking up new recipes to deliver a prosperous Solana ecosystem.</p>
                   </div>
                 </div>
               </div>
@@ -854,150 +790,305 @@ html { font-size: 1rem; }
           </div>
         </div>
       </section>
-      <section class="section_institutions">
-        <div class="padding-section-medium">
-          <div class="padding-global">
-            <div data-w-id="6ad7ac3d-a00a-2db4-6ae4-7e42973bd57a" class="container-large">
-              <div class="margin-bottom margin-large">
-                <h2 class="heading-style-h2">Providing unmatched value to Institutions</h2>
-              </div>
-              <div class="w-layout-grid institutions-grid">
-                <a href="https://marinade.finance/blog/custodians" class="institutions-card w-inline-block">
-                  <div class="institutions-top">
-                    <div class="institutions_heading">
-                      <h4 class="heading-style-h4">Custodians</h4>
-                      <div class="internal_link-icon w-embed"><svg viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.5" d="M5 2H24M24 2V21M24 2L2 24" stroke="#8596A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                    </div>
-                    <div class="text-size-medium text-color-secondary is-small">Marinade offers custodians an efficient and simple way for their clients to earn competitive rewards on their SOL tokens. Enable your clients to make effective use of their SOL.</div>
+      <section class="section_categories">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="category_menu-wrapper">
+              <a data-category-name="" data-active="true" href="blog.html" aria-current="page" class="filter_radio-item w-inline-block w--current">
+                <div>All</div>
+              </a>
+              <div class="category_list-wrapper w-dyn-list">
+                <div role="list" class="category-list w-dyn-items">
+                  <div role="listitem" class="category_list-item w-dyn-item">
+                    <a data-category-name="" data-active="false" href="#" class="filter_radio-item w-inline-block">
+                      <div></div>
+                    </a>
                   </div>
-                </a>
-                <a href="https://marinade.finance/blog/exchanges" class="institutions-card w-inline-block">
-                  <div class="institutions-top">
-                    <div class="institutions_heading">
-                      <h4 class="heading-style-h4">Exchanges</h4>
-                      <div class="internal_link-icon w-embed"><svg viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.5" d="M5 2H24M24 2V21M24 2L2 24" stroke="#8596A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                    </div>
-                    <div class="text-size-medium text-color-secondary is-small">Improve trading activity in your exchange with secure and high yield Solana rewards. Marinade removes both counterparty and smart contract risks.</div>
-                  </div>
-                </a>
-                <a href="https://marinade.finance/blog/wallets" class="institutions-card w-inline-block">
-                  <div class="institutions-top">
-                    <div class="institutions_heading">
-                      <h4 class="heading-style-h4">Asset Managers</h4>
-                      <div class="internal_link-icon w-embed"><svg viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.5" d="M5 2H24M24 2V21M24 2L2 24" stroke="#8596A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                    </div>
-                    <div class="text-size-medium text-color-secondary is-small">Become proficient in the creation of market-leading fund products with Marinade. Asset Managers can safely stake their SOL for higher rewards to boost their portfolio value.</div>
-                  </div>
-                </a>
-                <a href="https://marinade.finance/blog/treasuries" class="institutions-card w-inline-block">
-                  <div class="institutions-top">
-                    <div class="institutions_heading">
-                      <h4 class="heading-style-h4">Treasury Management</h4>
-                      <div class="internal_link-icon w-embed"><svg viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path opacity="0.5" d="M5 2H24M24 2V21M24 2L2 24" stroke="#8596A1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg></div>
-                    </div>
-                    <div class="text-size-medium text-color-secondary is-small">Grow treasury value by maximizing returns and minimizing risks  with Marinade&#x27;s integration. Reliable passive income is what  it is all about.</div>
-                  </div>
-                </a>
+                </div>
+                <div class="w-dyn-empty">
+                  <div>No items found.</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section id="contact-form" class="section-institutional-contact">
-        <div class="padding-section-medium">
-          <div id="institutions-contact-form-scroll" class="scroll-handler"></div>
+      <section data-w-id="c2cee7d6-e595-d0b4-6658-29092aea2965" style="opacity:0" class="section_news">
+        <div class="padding-section-medium is-news">
           <div class="padding-global">
             <div class="container-large">
-              <div class="institutional-contact-wrapper">
-                <div class="native-contact-info">
-                  <h2 class="heading-style-h2 width-80">Marinade Native for Institutions<br></h2>
-                  <div class="text-size-medium">Connect with our team to activate secure, non-custodial Solana staking through BitGo’s qualified custody. We’ll guide you through onboarding, coordinate with the BitGo team, and help you maximize your staking rewards with Marinade.</div>
-                </div>
-                <div class="form-wrapper">
-                  <div id="institution-form" class="institution-form w-form">
-                    <form id="wf-form-Institutions-Form" name="wf-form-Institutions-Form" data-name="Institutions Form" method="get" data-webflow-hubspot-api-form-url="https://hubspotonwebflow.com/api/forms/1008d222-e5d6-40b8-865f-28d26d13d77f" class="form" data-wf-flow="d0a756b101804faa8b4ae39f" data-wf-page-id="6717b71db3066f8ab07a7ef0" data-wf-element-id="b31b994f-f3bd-0dc5-7bac-6c62611e0b56">
-                      <div class="w-layout-vflex form-fields">
-                        <div class="w-layout-hflex form-row"><input class="form-field w-input" data-wfhsfieldname="FormTextInput-2" maxlength="256" name="firstName" data-name="firstName" placeholder="First Name" type="text" id="firstName" required=""><input class="form-field w-input" data-wfhsfieldname="FormTextInput-3" maxlength="256" name="lastName" data-name="lastName" placeholder="Last Name" type="text" id="lastName" required=""></div>
-                        <div class="w-layout-hflex form-row"><input class="form-field w-input" data-wfhsfieldname="FormTextInput-4" maxlength="256" name="companyEmail" data-name="companyEmail" placeholder="Company Email" type="email" id="companyEmail" required=""><input class="form-field w-input" data-wfhsfieldname="FormTextInput-5" maxlength="256" name="companyName" data-name="companyName" placeholder="Company Name" type="text" id="companyName" required=""></div>
-                        <div class="w-layout-hflex form-row">
-                          <address class="form-field form-field-dropdown-wrapper"><select id="region" name="region" data-name="region" required="" data-wfhsfieldname="FormSelect-6" class="form-field form-field-dropdown region w-select">
-                              <option value="">Region</option>
-                              <option value="APAC">APAC</option>
-                              <option value="EMEA">EMEA</option>
-                              <option value="LATAM">LATAM</option>
-                              <option value="North America">North America</option>
-                            </select>
-                            <div class="w-layout-vflex dropdown-chevron-wrapper">
-                              <div class="dropdown-chevron w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M6 9L12 15L18 9" stroke="#778A96" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg></div>
+              <div class="news_list-wrapper">
+                <div id="latest-articles" class="list_slider splide">
+                  <div class="btn_heading-wrapper">
+                    <h2 class="heading-news-h2">Latest Articles</h2>
+                    <div class="splide__arrows is-news">
+                      <a aria-label="Previous slide" href="#" class="button__arrow splide__arrow--prev is-darkest w-button"></a>
+                      <a aria-label="Next slide" href="#" class="button__arrow splide__arrow--next is-darkest w-button"></a>
+                    </div>
+                  </div>
+                  <div class="latest_articles_list-wrapper splide__track w-dyn-list">
+                    <div role="list" class="latest_articles-grid splide__list w-dyn-items">
+                      <div role="listitem" class="lates_article-item splide__slide w-dyn-item">
+                        <a href="#" class="latest_article-container w-inline-block">
+                          <div class="latest_article_info-wrapper">
+                            <div class="news_meta">
+                              <div class="meta_tag is-white">
+                                <div></div>
+                              </div>
+                              <div class="text-style-allcaps text-color-secondary is-oncolor"></div>
                             </div>
-                          </address>
-                        </div>
-                        <div class="w-layout-hflex form-row">
-                          <address class="form-field form-field-dropdown-wrapper"><select id="stakeVolume" name="stakeVolume" data-name="stakeVolume" required="" data-wfhsfieldname="FormSelect-7" class="form-field form-field-dropdown volume w-select">
-                              <option value="">Approx. Staking Volume</option>
-                              <option value="Under $1,000,000">Under $1,000,000</option>
-                              <option value="Between $1,000,000-$9,999,999">Between $1,000,000-$9,999,999</option>
-                              <option value="Above $10,000,000">Above $10,000,000</option>
-                            </select>
-                            <div class="w-layout-vflex dropdown-chevron-wrapper">
-                              <div class="dropdown-chevron w-embed"><svg width="24" height="24" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <path d="M6 9L12 15L18 9" stroke="#778A96" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                </svg></div>
+                            <div class="slider_info-wrapper">
+                              <h3 class="slide-heading"></h3>
+                              <div class="slide-description text-style-3lines"></div>
+                              <div class="button-group is-news">
+                                <div class="button is-overlay">
+                                  <div>Read News</div>
+                                </div>
+                              </div>
                             </div>
-                          </address>
-                        </div>
-                        <div class="w-layout-hflex form-row"><input class="form-field w-input" data-wfhsfieldname="FormTextInput-8" maxlength="256" name="telegram" data-name="telegram" placeholder="Telegram (Optional)" type="text" id="telegram"></div>
-                      </div><input type="submit" data-wait="Submitting..." id="institutional-btn" class="button is-brand form-button w-button" value="Submit"><input type="hidden" name="hutk" value=""><input type="hidden" name="ipAddress" value=""><input type="hidden" name="pageUri" value=""><input type="hidden" name="pageId" value=""><input type="hidden" name="pageName" value="">
-                    </form>
-                    <div class="success-message w-form-done">
-                      <div class="w-layout-vflex success-block-wrapper"><img src="images/feature_img_3.webp" loading="lazy" sizes="100vw" srcset="images/feature_img_3feature_img_02.webp 500w, images/feature_img_3.webp 1136w" alt="" class="image">
-                        <div class="w-layout-vflex success-block-text-wrapper">
-                          <h4 class="heading-style-h4">Thanks for your submission!</h4>
-                          <div class="text-size-medium text-align-center">It is already on its way to us! We appreciate your impact and will reach you out as soon as we get your message processed.</div>
-                        </div>
+                          </div>
+                          <div id="w-node-_40e13670-1974-d241-0d93-afd9d3b8442f-d3b8441f" class="news_thumbnail-wrapper is-blog"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="news_thumbnail-image"></div>
+                        </a>
                       </div>
                     </div>
-                    <div class="error-message w-form-fail">
-                      <div class="w-layout-vflex error-message-wrapper">
-                        <div class="error-icon w-embed"><svg width="32" height="32" viewbox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.19089 20.5061C5.60683 18.922 4.81479 18.13 4.51804 17.2167C4.25701 16.4133 4.25701 15.5479 4.51804 14.7445C4.81479 13.8312 5.60683 13.0392 7.19089 11.4551L11.4536 7.19236C13.0377 5.60829 13.8297 4.81626 14.7431 4.5195C15.5464 4.25847 16.4118 4.25847 17.2152 4.5195C18.1285 4.81626 18.9205 5.60829 20.5046 7.19236L24.7673 11.4551C26.3514 13.0392 27.1434 13.8312 27.4402 14.7445C27.7012 15.5479 27.7012 16.4133 27.4402 17.2167C27.1434 18.13 26.3514 18.922 24.7673 20.5061L20.5046 24.7688C18.9205 26.3529 18.1285 27.1449 17.2152 27.4417C16.4118 27.7027 15.5464 27.7027 14.7431 27.4417C13.8297 27.1449 13.0377 26.3529 11.4536 24.7688L7.19089 20.5061ZM14.713 9.3326C14.687 8.60451 15.2702 8.00012 15.9987 8.00012C16.7273 8.00012 17.3105 8.60451 17.2845 9.3326L17.0344 16.3341C17.0145 16.8917 16.5567 17.3335 15.9987 17.3335C15.4408 17.3335 14.983 16.8917 14.9631 16.3341L14.713 9.3326ZM15.9987 22.6668C16.7351 22.6668 17.3321 22.0698 17.3321 21.3335C17.3321 20.5971 16.7351 20.0001 15.9987 20.0001C15.2624 20.0001 14.6654 20.5971 14.6654 21.3335C14.6654 22.0698 15.2624 22.6668 15.9987 22.6668Z" fill="#EC5F59"></path>
-                          </svg></div>
-                        <div class="text-size-medium">Oops! Something went wrong while submitting the form.</div>
+                    <div class="w-dyn-empty">
+                      <div>No items found.</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="news_category-list">
+                  <div class="category_heading-wrapper">
+                    <h2 class="heading-news-h2">Announcements</h2>
+                    <a href="/category/announcements" class="button is-secondary hide-mobile-portrait w-button">View All</a>
+                  </div>
+                  <div class="news_collection_list-wrapper w-dyn-list">
+                    <div wfu-limit-items-p="3" wfu-limit-items-d="3" wfu-limit-items-t="4" wfu-limit-items-l="4" role="list" class="news_collection-list w-dyn-items">
+                      <div role="listitem" class="news_collection-item w-dyn-item">
+                        <a href="#" class="news_collection-container w-inline-block">
+                          <div class="margin-bottom margin-small hide-mobile-landscape">
+                            <div class="news_top"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="news_thumbnail-image"></div>
+                          </div>
+                          <div class="news_bottom">
+                            <div class="news_meta">
+                              <div class="meta_tag">
+                                <div></div>
+                              </div>
+                              <div class="text-style-allcaps text-color-secondary"></div>
+                            </div>
+                            <div class="news_info">
+                              <h5 class="news-heading text-style-2lines"></h5>
+                              <div class="text-size-small text-style-2lines"></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="news_collection_empty w-dyn-empty">
+                      <div class="empty_text-wrapper">
+                        <div class="empty_heading">Empty for Now</div>
+                        <div class="text-size-small text-color-secondary">There are no articles in this category at the moment. Stay tuned! We’re working on bringing you new and exciting content soon. In the meantime, take a look at our latest articles in other categories.</div>
                       </div>
                     </div>
                   </div>
+                  <div class="show-mobile-portrait">
+                    <a href="#" class="button is-huge is-secondary w-button">View All</a>
+                  </div>
+                </div>
+                <div class="news_category-list">
+                  <div class="category_heading-wrapper">
+                    <h2 class="heading-news-h2">Education</h2>
+                    <a href="/category/education" class="button is-secondary hide-mobile-portrait w-button">View All</a>
+                  </div>
+                  <div class="news_collection_list-wrapper w-dyn-list">
+                    <div wfu-limit-items-p="3" wfu-limit-items-d="3" wfu-limit-items-t="4" wfu-limit-items-l="4" role="list" class="news_collection-list w-dyn-items">
+                      <div role="listitem" class="news_collection-item w-dyn-item">
+                        <a href="#" class="news_collection-container w-inline-block">
+                          <div class="margin-bottom margin-small hide-mobile-landscape">
+                            <div class="news_top"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="news_thumbnail-image"></div>
+                          </div>
+                          <div class="news_bottom">
+                            <div class="news_meta">
+                              <div class="meta_tag">
+                                <div></div>
+                              </div>
+                              <div class="text-style-allcaps text-color-secondary"></div>
+                            </div>
+                            <div class="news_info">
+                              <h5 class="news-heading text-style-2lines"></h5>
+                              <div class="text-size-small text-style-2lines"></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="news_collection_empty w-dyn-empty">
+                      <div class="empty_text-wrapper">
+                        <div class="empty_heading">Empty for Now</div>
+                        <div class="text-size-small text-color-secondary">There are no articles in this category at the moment. Stay tuned! We’re working on bringing you new and exciting content soon. In the meantime, take a look at our latest articles in other categories.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="show-mobile-portrait">
+                    <a href="#" class="button is-huge is-secondary w-button">View All</a>
+                  </div>
+                </div>
+                <div class="news_category-list">
+                  <div class="category_heading-wrapper">
+                    <h2 class="heading-news-h2">Guides</h2>
+                    <a href="/category/guides" class="button is-secondary hide-mobile-portrait w-button">View All</a>
+                  </div>
+                  <div class="news_collection_list-wrapper w-dyn-list">
+                    <div wfu-limit-items-p="3" wfu-limit-items-d="3" wfu-limit-items-t="4" wfu-limit-items-l="4" role="list" class="news_collection-list w-dyn-items">
+                      <div role="listitem" class="news_collection-item w-dyn-item">
+                        <a href="#" class="news_collection-container w-inline-block">
+                          <div class="margin-bottom margin-small hide-mobile-landscape">
+                            <div class="news_top"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="news_thumbnail-image"></div>
+                          </div>
+                          <div class="news_bottom">
+                            <div class="news_meta">
+                              <div class="meta_tag">
+                                <div></div>
+                              </div>
+                              <div class="text-style-allcaps text-color-secondary"></div>
+                            </div>
+                            <div class="news_info">
+                              <h5 class="news-heading text-style-2lines"></h5>
+                              <div class="text-size-small text-style-2lines"></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="news_collection_empty w-dyn-empty">
+                      <div class="empty_text-wrapper">
+                        <div class="empty_heading">Empty for Now</div>
+                        <div class="text-size-small text-color-secondary">There are no articles in this category at the moment. Stay tuned! We’re working on bringing you new and exciting content soon. In the meantime, take a look at our latest articles in other categories.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="show-mobile-portrait">
+                    <a href="#" class="button is-huge is-secondary w-button">View All</a>
+                  </div>
+                </div>
+                <div class="news_category-list">
+                  <div class="category_heading-wrapper">
+                    <h2 class="heading-news-h2">Reports</h2>
+                    <a href="/category/report" class="button is-secondary hide-mobile-portrait w-button">View All</a>
+                  </div>
+                  <div class="news_collection_list-wrapper w-dyn-list">
+                    <div wfu-limit-items-p="3" wfu-limit-items-d="3" wfu-limit-items-t="4" wfu-limit-items-l="4" role="list" class="news_collection-list w-dyn-items">
+                      <div role="listitem" class="news_collection-item w-dyn-item">
+                        <a href="#" class="news_collection-container w-inline-block">
+                          <div class="margin-bottom margin-small hide-mobile-landscape">
+                            <div class="news_top"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="news_thumbnail-image"></div>
+                          </div>
+                          <div class="news_bottom">
+                            <div class="news_meta">
+                              <div class="meta_tag">
+                                <div></div>
+                              </div>
+                              <div class="text-style-allcaps text-color-secondary"></div>
+                            </div>
+                            <div class="news_info">
+                              <h5 class="news-heading text-style-2lines"></h5>
+                              <div class="text-size-small text-style-2lines"></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="news_collection_empty w-dyn-empty">
+                      <div class="empty_text-wrapper">
+                        <div class="empty_heading">Empty for Now</div>
+                        <div class="text-size-small text-color-secondary">There are no articles in this category at the moment. Stay tuned! We’re working on bringing you new and exciting content soon. In the meantime, take a look at our latest articles in other categories.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="show-mobile-portrait">
+                    <a href="#" class="button is-huge is-secondary w-button">View All</a>
+                  </div>
+                </div>
+                <div class="news_category-list">
+                  <div class="category_heading-wrapper">
+                    <h2 class="heading-news-h2">Updates</h2>
+                    <a href="/category/update" class="button is-secondary hide-mobile-portrait w-button">View All</a>
+                  </div>
+                  <div class="news_collection_list-wrapper w-dyn-list">
+                    <div wfu-limit-items-p="3" wfu-limit-items-d="3" wfu-limit-items-t="4" wfu-limit-items-l="4" role="list" class="news_collection-list w-dyn-items">
+                      <div role="listitem" class="news_collection-item w-dyn-item">
+                        <a href="#" class="news_collection-container w-inline-block">
+                          <div class="margin-bottom margin-small hide-mobile-landscape">
+                            <div class="news_top"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="news_thumbnail-image"></div>
+                          </div>
+                          <div class="news_bottom">
+                            <div class="news_meta">
+                              <div class="meta_tag">
+                                <div></div>
+                              </div>
+                              <div class="text-style-allcaps text-color-secondary"></div>
+                            </div>
+                            <div class="news_info">
+                              <h5 class="news-heading text-style-2lines"></h5>
+                              <div class="text-size-small text-style-2lines"></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="news_collection_empty w-dyn-empty">
+                      <div class="empty_text-wrapper">
+                        <div class="empty_heading">Empty for Now</div>
+                        <div class="text-size-small text-color-secondary">There are no articles in this category at the moment. Stay tuned! We’re working on bringing you new and exciting content soon. In the meantime, take a look at our latest articles in other categories.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="show-mobile-portrait">
+                    <a href="#" class="button is-huge is-secondary w-button">View All</a>
+                  </div>
+                </div>
+                <div class="news_category-list">
+                  <div class="category_heading-wrapper">
+                    <h2 class="heading-news-h2">Use Cases</h2>
+                    <a href="/category/use-cases" class="button is-secondary hide-mobile-portrait w-button">View All</a>
+                  </div>
+                  <div class="news_collection_list-wrapper w-dyn-list">
+                    <div wfu-limit-items-p="3" wfu-limit-items-d="3" wfu-limit-items-t="4" wfu-limit-items-l="4" role="list" class="news_collection-list w-dyn-items">
+                      <div role="listitem" class="news_collection-item _1-1-ratio w-dyn-item">
+                        <a href="#" class="news_collection-container w-inline-block">
+                          <div class="margin-bottom margin-small hide-mobile-landscape">
+                            <div class="news_top"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="news_thumbnail-image"></div>
+                          </div>
+                          <div class="news_bottom">
+                            <div class="news_meta">
+                              <div class="meta_tag">
+                                <div></div>
+                              </div>
+                              <div class="text-style-allcaps text-color-secondary"></div>
+                            </div>
+                            <div class="news_info">
+                              <h5 class="news-heading text-style-2lines"></h5>
+                              <div class="text-size-small text-style-2lines"></div>
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="news_collection_empty w-dyn-empty">
+                      <div class="empty_text-wrapper">
+                        <div class="empty_heading">Empty for Now</div>
+                        <div class="text-size-small text-color-secondary">There are no articles in this category at the moment. Stay tuned! We’re working on bringing you new and exciting content soon. In the meantime, take a look at our latest articles in other categories.</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="show-mobile-portrait">
+                    <a href="#" class="button is-huge is-secondary w-button">View All</a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <a data-text="Optimize your staking" data-category="optimize_your_staking" data-subcategory="optimize_your_staking" data-position="Footer" data-w-id="e5a95aa3-fc49-1edb-b20e-856fba205dbe" href="https://app.marinade.finance/" class="section_cta is-link ga-button w-inline-block">
-        <div class="padding-section-small">
-          <div class="padding-global">
-            <div class="container-large">
-              <div class="cta_heading-wrapper">
-                <h2 class="cta_heading">Optimize your staking</h2>
-                <div class="cta_button-wrapper">
-                  <div class="cta_button-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M4 24H44M44 24L26 6M44 24L26 42" stroke="#151A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
-                    </svg></div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </a>
       <section data-w-id="06eed885-e3f4-9890-a863-4367c47818be" class="section_subscription">
         <div class="padding-section-medium">
           <div class="padding-global">
@@ -1009,7 +1100,7 @@ html { font-size: 1rem; }
                 </div>
                 <div id="w-node-_06eed885-e3f4-9890-a863-4367c47818c8-c47818be" class="email_form-wrapper">
                   <div class="form_subscription w-form">
-                    <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form_subscription-wrapper" data-wf-flow="522f0db4a3c22ca253355a72" data-wf-page-id="6717b71db3066f8ab07a7ef0" data-wf-element-id="06eed885-e3f4-9890-a863-4367c47818ca">
+                    <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form_subscription-wrapper" data-wf-flow="522f0db4a3c22ca253355a72" data-wf-page-id="665f10aa0cf47153f412ec3b" data-wf-element-id="06eed885-e3f4-9890-a863-4367c47818ca">
                       <div class="field-container">
                         <div class="field-wrapper"><input type="submit" data-wait=" " id="newsletter-btn" aria-label="Submit" class="field_button ga-button w-button" value=" "><input class="input_subscription w-input" maxlength="256" name="customerEmail" data-name="customerEmail" placeholder="Get our newsletter" type="email" id="customerEmail" required=""></div>
                         <div class="text-size-tiny text-align-center is-caption">By subscribing, you agree with our <a href="privacy-policy.html" class="form_link">Privacy Policy</a> and provide consent to receive updates from our company.</div>
@@ -1115,7 +1206,7 @@ html { font-size: 1rem; }
                   <a href="https://marinade.finance/blog/solana-staking-101" class="footer-link w-inline-block">
                     <div class="footer_link-text">Staking 101</div>
                   </a>
-                  <a href="blog.html" class="footer-link w-inline-block">
+                  <a href="blog.html" aria-current="page" class="footer-link w-inline-block w--current">
                     <div class="footer_link-text">Blog</div>
                   </a>
                   <a href="media.html" class="footer-link w-inline-block">
@@ -1200,6 +1291,201 @@ html { font-size: 1rem; }
           </div>
         </div>
       </section>
+      <div class="blog-styles w-embed">
+        <style>
+/*
+ * Limit collection list items, at breakpoint levels
+ */
+[wfu-limit-items="1"] > div:nth-child(n+2):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="2"] > div:nth-child(n+3):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="3"] > div:nth-child(n+4):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="4"] > div:nth-child(n+5):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="5"] > div:nth-child(n+6):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="6"] > div:nth-child(n+7):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="7"] > div:nth-child(n+8):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="8"] > div:nth-child(n+9):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="9"] > div:nth-child(n+10):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="10"] > div:nth-child(n+11):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="11"] > div:nth-child(n+12):nth-child(-n+1000) {
+  display: none;
+}
+[wfu-limit-items="12"] > div:nth-child(n+13):nth-child(-n+1000) {
+  display: none;
+}
+@media screen and (min-width: 992px) {
+  [wfu-limit-items-d="1"] > div:nth-child(n+2):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="2"] > div:nth-child(n+3):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="3"] > div:nth-child(n+4):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="4"] > div:nth-child(n+5):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="5"] > div:nth-child(n+6):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="6"] > div:nth-child(n+7):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="7"] > div:nth-child(n+8):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="8"] > div:nth-child(n+9):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="9"] > div:nth-child(n+10):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="10"] > div:nth-child(n+11):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="11"] > div:nth-child(n+12):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-d="12"] > div:nth-child(n+13):nth-child(-n+1000) {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  [wfu-limit-items-t="1"] > div:nth-child(n+2):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="2"] > div:nth-child(n+3):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="3"] > div:nth-child(n+4):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="4"] > div:nth-child(n+5):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="5"] > div:nth-child(n+6):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="6"] > div:nth-child(n+7):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="7"] > div:nth-child(n+8):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="8"] > div:nth-child(n+9):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="9"] > div:nth-child(n+10):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="10"] > div:nth-child(n+11):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="11"] > div:nth-child(n+12):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-t="12"] > div:nth-child(n+13):nth-child(-n+1000) {
+    display: none;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  [wfu-limit-items-l="1"] > div:nth-child(n+2):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="2"] > div:nth-child(n+3):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="3"] > div:nth-child(n+4):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="4"] > div:nth-child(n+5):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="5"] > div:nth-child(n+6):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="6"] > div:nth-child(n+7):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="7"] > div:nth-child(n+8):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="8"] > div:nth-child(n+9):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="9"] > div:nth-child(n+10):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="10"] > div:nth-child(n+11):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="11"] > div:nth-child(n+12):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-l="12"] > div:nth-child(n+13):nth-child(-n+1000) {
+    display: none;
+  }
+}
+@media screen and (max-width: 479px) {
+  [wfu-limit-items-p="1"] > div:nth-child(n+2):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="2"] > div:nth-child(n+3):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="3"] > div:nth-child(n+4):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="4"] > div:nth-child(n+5):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="5"] > div:nth-child(n+6):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="6"] > div:nth-child(n+7):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="7"] > div:nth-child(n+8):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="8"] > div:nth-child(n+9):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="9"] > div:nth-child(n+10):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="10"] > div:nth-child(n+11):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="11"] > div:nth-child(n+12):nth-child(-n+1000) {
+    display: none;
+  }
+  [wfu-limit-items-p="12"] > div:nth-child(n+13):nth-child(-n+1000) {
+    display: none;
+  }
+}
+</style>
+      </div>
     </main>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=664c7876d83b34499b5688a0" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
@@ -1566,11 +1852,12 @@ $('[data-click="faq"]').click(function(){
   <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
   <script>
   window.onload = function() {
-    var testimonialsSlider = document.querySelector("#testimonials-slider");
-    if (testimonialsSlider) {
-      new Splide(testimonialsSlider, {
-        type: "loop",
-        perPage: 3,
+    var latestArticlesSlider = document.querySelector("#latest-articles");
+    if (latestArticlesSlider) {
+      let sliderType = window.innerWidth <= 768 ? "loop" : "fade";
+      var splideInstance = new Splide(latestArticlesSlider, {
+        type: sliderType,
+        perPage: 1,
         perMove: 1,
         pagination: false,
         speed: 800,
@@ -1578,53 +1865,32 @@ $('[data-click="faq"]').click(function(){
         interval: 5000,
         lazyLoad: true,
         arrows: true,
+        rewind: true,
         gap: "0.5rem",
-        breakpoints: {
-          768: {
-            perPage: 2,
-          },
-          568: {
-            perPage: 2,
-          },
-          320: {
+      });
+      splideInstance.mount();
+      window.addEventListener('resize', function() {
+        let newType = window.innerWidth <= 768 ? "loop" : "fade";
+        if (newType !== splideInstance.options.type) {
+          splideInstance.destroy(true);
+          splideInstance = new Splide(latestArticlesSlider, {
+            type: newType,
             perPage: 1,
-          },
-        },
-      }).mount();
-    }
-  };
-</script>
-  <script>
-  // Initialize dataLayer
-  window.dataLayer = window.dataLayer || [];
-  // Debug dataLayer pushes
-  window.dataLayer.push = function(obj) {
-    console.log('DataLayer push:', obj);
-    Array.prototype.push.call(this, obj);
-  };
-  // Wait for the DOM to load
-  document.addEventListener('DOMContentLoaded', (event) => {
-    // Form submission handler for GTM
-    const formSelector = '#wf-form-Institutions-Form';
-    const formElement = document.querySelector(formSelector);
-    console.log('Form element is ', formElement);
-    if (formElement) {
-      console.log('FormElement check passed!');
-      formElement.addEventListener('submit', (event) => {
-        if (event.target === formElement) {
-          console.log("Form submitted - pushing to dataLayer");
-          // Push to dataLayer
-          window.dataLayer.push({
-            'event': 'LeadFormSent'
+            perMove: 1,
+            pagination: false,
+            speed: 800,
+            autoplay: true,
+            interval: 5000,
+            lazyLoad: true,
+            arrows: true,
+            rewind: true,
+            gap: "0.5rem",
           });
-          // Additional debug logging
-          console.log('Current dataLayer state:', window.dataLayer);
+          splideInstance.mount();
         }
-      }, true); // Using capture phase
-    } else {
-      console.log('**Error:** Form element not found with selector ' + formSelector);
+      });
     }
-  });
+  };
 </script>
   <script src="https://hubspotonwebflow.com/assets/js/form-124.js" type="text/javascript" integrity="sha384-bjyNIOqAKScdeQ3THsDZLGagNN56B4X2Auu9YZIGu+tA/PlggMk4jbWruG/P6zYj" crossorigin="anonymous"></script>
 </body>
