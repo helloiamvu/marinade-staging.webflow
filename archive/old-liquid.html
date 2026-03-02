@@ -1,0 +1,1748 @@
+<!DOCTYPE html><!--  Last Published: Mon Mar 02 2026 20:46:52 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="68d3f2f01b2229f5c5ecd4f4" data-wf-site="664c7876d83b34499b5688a0" lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>WIP New Liquid</title>
+  <meta content="Solana staking for institutions &amp; individuals. Stake to top validators via an automated marketplace for top rewards—no smart contract risk, 100% uptime protection." name="description">
+  <meta content="WIP New Liquid" property="og:title">
+  <meta content="Solana staking for institutions &amp; individuals. Stake to top validators via an automated marketplace for top rewards—no smart contract risk, 100% uptime protection." property="og:description">
+  <meta content="https://cdn.prod.website-files.com/664c7876d83b34499b5688a0/6854581822dd647c3c0fc084_OpenGraph-web-7.png" property="og:image">
+  <meta content="WIP New Liquid" property="twitter:title">
+  <meta content="Solana staking for institutions &amp; individuals. Stake to top validators via an automated marketplace for top rewards—no smart contract risk, 100% uptime protection." property="twitter:description">
+  <meta content="https://cdn.prod.website-files.com/664c7876d83b34499b5688a0/6854581822dd647c3c0fc084_OpenGraph-web-7.png" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="noindex" name="robots">
+  <link href="../css/normalize.css" rel="stylesheet" type="text/css">
+  <link href="../css/webflow.css" rel="stylesheet" type="text/css">
+  <link href="../css/marinade-staging.webflow.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+  <script type="text/javascript">WebFont.load({  google: {    families: ["PT Serif:400,400italic,700,700italic","DM Mono:300,400,500,600,700","DM Sans:300,400,500,600,700","PT Serif Caption:300,400,500,600,700"]  }});</script>
+  <script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+  <link href="../images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="../images/webclip.ico" rel="apple-touch-icon"><!--  Finsweet Attributes  -->
+  <script async="" type="module" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js" fs-scrolldisable=""></script>
+  <!--  Finsweet Cookie Consent  -->
+  <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js" fs-cc-mode="opt-in" fs-cc-domain="marinade.finance"></script>
+  <!--  Google Tag Manager  -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TTZLQF7');</script>
+  <!--  End Google Tag Manager  -->
+  <!--  Mixpanel web  -->
+  <script type="text/javascript" fs-cc="analytics">
+  (function(e,c){if(!c.__SV){var l,h;window.mixpanel=c;c._i=[];c.init=function(q,r,f){function t(d,a){var g=a.split(".");2==g.length&&(d=d[g[0]],a=g[1]);d[a]=function(){d.push([a].concat(Array.prototype.slice.call(arguments,0)))}}var b=c;"undefined"!==typeof f?b=c[f]=[]:f="mixpanel";b.people=b.people||[];b.toString=function(d){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);d||(a+=" (stub)");return a};b.people.toString=function(){return b.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders start_session_recording stop_session_recording people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+  for(h=0;h<l.length;h++)t(b,l[h]);var n="set set_once union unset remove delete".split(" ");b.get_group=function(){function d(p){a[p]=function(){b.push([g,[p].concat(Array.prototype.slice.call(arguments,0))])}}for(var a={},g=["get_group"].concat(Array.prototype.slice.call(arguments,0)),m=0;m<n.length;m++)d(n[m]);return a};c._i.push([q,r,f])};c.__SV=1.2;var k=e.createElement("script");k.type="text/javascript";k.async=!0;k.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===
+  e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";e=e.getElementsByTagName("script")[0];e.parentNode.insertBefore(k,e)}})(document,window.mixpanel||[])
+  mixpanel.init('90a7b89d66c7df53e0809fd5f7128574', {
+    autocapture: true,
+    record_sessions_percent: 100,
+  })
+</script>
+  <script async="async" src="https://mm-uxrv.com/js/mm_274117bb-f53f-4719-951f-bb66445abd5c-27464787.js"></script>
+  <script>
+window.xrayDataLayer = window.xrayDataLayer || [];
+function xrayData() { xrayDataLayer.push(arguments); }
+</script><!--  Block indexingu  -->
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="google-site-verification" content="PY1JpB5parQypQ65Dojga-lTAwPywnTIKdhy7v4BqmA">
+  <link rel="canonical" href="https://marinade.finance/">
+  <!--  Swiper.js  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!--  GSAP  -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <!--  [Attributes by Finsweet] CMS Nest  -->
+  <script async="" src="https://cdn.jsdelivr.net/npm/@finsweet/attributes-cmsnest@1/cmsnest.js"></script>
+  <!--  Tippy JS  -->
+  <link rel="stylesheet" href="https://unpkg.com/tippy.js@6/animations/scale.css">
+  <style>
+.full-height {
+	height: 100svh;
+	height: calc(var(--locked-vh, 1vh) * 100);
+}
+.min-height {
+	min-height: 100svh;
+	min-height: calc(var(--locked-vh, 1vh) * 100);
+}
+</style>
+</head>
+<body>
+  <div class="page_code-wrapper">
+    <div class="global-styles w-embed">
+      <style>
+html {
+	background-color: white;
+}
+/* Make text look crisper and more legible in all browsers */
+body {
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased
+  -moz-osx-font-smoothing: grayscale;
+  font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+svg {
+  width: auto !important;
+}
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+	input[type="file"]:focus-visible {
+  outline: 0.125rem solid #4d65ff;
+  outline-offset: 0.125rem;
+}
+/* Set color style to inherit */
+.inherit-color * {
+	color: inherit;
+}
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+/* Apply "..." after 4 lines of text */
+.text-style-4lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+}
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+/* Adds inline flex display */
+.display-inlineflex {
+	display: inline-flex;
+}
+/* These classes are never overwritten */
+.hide {
+	display: none !important;
+}
+@media screen and (max-width: 991px) {
+  .hide, .hide-tablet {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+	.hide-mobile-landscape {
+		display: none !important;
+  }
+}
+@media screen and (max-width: 479px) {
+  .hide-mobile {
+    display: none !important;
+  }
+}
+.margin-0 {
+  margin: 0rem !important;
+}
+.padding-0 {
+  padding: 0rem !important;
+}
+.spacing-clean {
+	padding: 0rem !important;
+	margin: 0rem !important;
+}
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+/* Pulsing Button */
+.pulse {
+  box-shadow: 0 0 0 0 rgba(48, 141, 138, 1); 
+  animation: pulsing-outline-button 2.5s infinite;
+}
+.pulse:hover {
+  animation: pulsing-outline-button-hover 2.5s infinite;
+}
+@keyframes pulsing-outline-button {
+  0% {
+    box-shadow: 0 0 0 0 rgba(48, 141, 138, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 1rem rgba(48, 141, 138, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(48, 141, 138, 0);
+  }
+}
+@keyframes pulsing-outline-button-hover {
+  0% {
+    box-shadow: 0 0 0 0 rgba(2, 66, 64, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 1rem rgba(2, 66, 64, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(2, 66, 64, 0);
+  }
+}
+/* Nav Link Hover */
+.dropdown_list-link.dimmed, 
+.logo-wrapper.dimmed {
+	opacity: 0.4;
+}
+/* Nav Overlay */
+.w-nav-overlay {
+	background: rgba(21, 26, 26, 0.80);
+	transition: all 2s ease;
+}
+/* Slider Styles */ 
+.splide__track {
+  overflow: visible !important;
+}
+/* Tippy Box */
+.tippy-box[data-theme~='custom'] {
+  background: rgba(255, 255, 255, 0.95);
+  color: #151A1A; 
+  border-radius: 1rem; 
+  padding: 0.5rem 0.5rem; 
+  font-size: 0.75rem; 
+  line-height: 1.25rem; 
+  box-shadow: 0 0.25rem 0.25rem 0 rgba(0, 32, 51, 0.04), 0 0.5rem 1.5rem 0 rgba(0, 32, 51, 0.12);
+  width: 16.5rem;
+}
+.tippy-box[data-theme~='custom'] .tippy-arrow {
+  color: rgba(255, 255, 255, 0.95);
+}
+/* Common Link Styles */
+.link {
+  display: inline-block;
+  width: auto;
+  position: relative;
+  transition: all 0.3s ease;
+}
+.link::after {
+  content: '';
+  position: absolute;
+  transition: all 0.3s ease;
+  margin: auto;
+  margin-bottom: 0rem;
+  height: 0.13rem;
+  opacity: 1;
+  top: auto;
+  bottom: 0;
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+.link[data-color="brand"] {
+  color: var(--link-color--link-primary);
+}
+.link[data-color="brand"]:hover {
+  color: var(--link-color--link-brand-darkest);
+}
+.link[data-color="brand"]::after {
+  background: var(--border-color--border-secondary);
+}
+.link[data-color="brand"]:hover::after {
+  background: var(--border-color--border-brand-darkes);
+  left: auto;
+  right: 0;
+  width: 0;
+}
+/* White Link Styles */
+.link[data-color="white"] {
+  color: var(--link-color--link-alternate);
+}
+.link[data-color="white"]:hover {
+  color: var(--link-color--link-alternate);
+}
+.link[data-color="white"]::after {
+  background: white;
+}
+.link[data-color="white"]:hover::after {
+  background: white;
+  left: auto;
+  right: 0;
+  width: 0;
+}
+/* Rich Text Link Styles */
+.text-rich-text a {
+  line-height: 1.15;
+  transition: background-position 0.15s ease 0.1s, box-shadow 0.15s ease 0s;
+  background-image: linear-gradient(to bottom, rgba(48, 141, 138, 0.20) 0%, rgba(48, 141, 138, 0.20) 100%);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0 1.1rem;
+  color: var(--link-color--link-primary);
+  overflow: hidden;
+}
+.text-rich-text a:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to bottom, rgba(48, 141, 138, 0.10) 0%, rgba(48, 141, 138, 0.10) 100%);
+  background-position: 0 0rem;
+  transition: background-position 0.1s ease 0s, box-shadow 0.1s ease 0.1s;
+}
+/* Additional Styles for Hover Effect within .advantages-card */
+.advantages-card:hover .link[data-color="white"] {
+  color: var(--link-color--link-alternate);
+}
+.advantages-card:hover .link[data-color="white"]::after {
+	background: white;
+  left: auto;
+  right: 0;
+  width: 0;
+}
+.advantages-card:hover .link[data-color="brand"]::after {
+	background: white;
+  left: auto;
+  right: 0;
+  width: 0;
+}
+@media (max-width: 1450px) and (min-width: 981px) {
+  #hero-heading-temporary {
+    font-size: 3.25rem;
+  }
+}
+@media (max-width: 768px) {
+  .strategy-avatar {
+    width: 40px !important;
+    height: 40px !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    max-width: 40px !important;
+    max-height: 40px !important;
+  }
+}
+</style>
+    </div>
+    <div class="component_states w-embed">
+      <style>]
+/* Categories */
+[data-active="false"]:hover {
+	color: var(--base-color-brand--turquoise-darkest);
+  border-color: var(--background-color--background-brand-dark);
+}
+.filter_radio-item[data-active="false"]:hover {
+	color: var(--base-color-brand--turquoise-darkest);
+  border-color: var(--background-color--background-brand-dark);
+}
+.filter_radio-item[data-active="true"] {
+	border-color: var(--background-color--background-brand-dark);
+  background-color: var(--background-color--background-brand-dark);
+  color: var(--text-color--text-alternate);
+}
+/* Token Pills */
+.tag_item-container[data-hover="true"]:hover {
+	color: var(--link-color--link-primary);
+  border-color: var(--border-color--border-secondary);
+}
+</style>
+    </div>
+    <div class="scroll-bar w-embed">
+      <style>
+  /* Hide scrollbar */
+  [data-no-scrollbar] {
+    -ms-overflow-style: none; /* IE 10+ */
+    overflow: -moz-scrollbars-none; /* Firefox*/ 
+  }
+  [data-no-scrollbar]: :-webkit-scrollbar {
+    display: none; /*Safari and Chrome*/
+  }
+</style>
+    </div>
+    <div class="fluid-responsive w-embed">
+      <style>
+html { font-size: 1rem; }
+@media screen and (max-width:1920px) { html { font-size: 1rem; } }
+@media screen and (max-width:1440px) { html { font-size: calc(0.4000000000000002rem + 0.6666666666666664vw); } }
+@media screen and (max-width:960px) { html { font-size: calc(0.8802494802494801rem + 0.1995841995841998vw); } }
+@media screen and (max-width:479px) { html { font-size: calc(0.7494769874476988rem + 0.8368200836820083vw); } }
+</style>
+    </div>
+  </div>
+  <div class="page-wrapper">
+    <main class="main-wrapper">
+      <section class="section_hero">
+        <div class="padding-section-large is-hero hero_30">
+          <div class="padding-global">
+            <div class="container-large hero_2-0">
+              <div class="hero_component hero_3-0 is-inner">
+                <div class="hero-content hero-3-0 width-half">
+                  <div class="max-width-medium gap-med hero_30">
+                    <div class="w-layout-vflex header-heading">
+                      <h1 class="hero_heading hero_3-0">Marinade<br>Liquid Staking</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="hero-content hero-3-0 width-half">
+                  <div class="max-width-medium gap-med hero_30">
+                    <p class="text-size-medium hero-paragraph hero-2-0">Discover how Marinade Liquid Staking maximizes the liquidity and flexibility of staked SOL while contributing to the security and decentralization of the Solana network.</p>
+                  </div>
+                  <div class="hero-tabs-content-stats stats-inner margin-top margin-small">
+                    <div class="hero-stats stats-inner">
+                      <div class="stats_main-item stats_main-new stat-small">
+                        <div class="text-align-center stat-small">
+                          <div class="margin-bottom margin-xxsmall">
+                            <div id="apy-value" class="stats_main_value is-upd is-small is-primary">Loading...</div>
+                          </div>
+                          <div class="stats_label is-new">Annual Percentage Yield</div>
+                        </div>
+                      </div>
+                      <div class="stats-divider"></div>
+                      <div class="stats_main-item stats_main-new">
+                        <div class="text-align-center">
+                          <div class="margin-bottom margin-xxsmall">
+                            <div class="stats_main_value is-upd is-small">Since 2021</div>
+                          </div>
+                          <div class="stats_label is-new">Solana Staking OG</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="hero-buttons-new margin-top margin-small">
+                    <a data-text="Stake now" data-category="optimize_your_staking" data-subcategory="optimize_your_staking" data-position="header" href="https://app.marinade.finance/" class="button is-brand hero_30 w-button">Stake now</a>
+                  </div>
+                  <div class="hero-logos margin-top margin-medium">
+                    <div class="logos-section-label hero_30">As seen at</div>
+                    <div class="logos-wrapper margin-top margin-0-5rem hero_30">
+                      <a href="https://blockworks.co/price/mnde" target="_blank" class="logo-wrapper w-inline-block">
+                        <div class="logo-hero_logo w-embed"><svg width="100%" height="100%" viewbox="0 0 109 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5042 21.1476H12.3816V4.5H15.5042V21.1476ZM22.1484 12.0855C23.6747 12.0855 25.0831 13.1883 25.0831 15.3716C25.0831 17.5559 23.6747 18.6587 22.1484 18.6587C20.6221 18.6587 19.2136 17.5325 19.2136 15.3716C19.2136 13.1883 20.6221 12.0855 22.1484 12.0855ZM22.1484 21.5C25.6 21.5 28.2057 18.9176 28.2057 15.3716C28.2057 11.8032 25.6 9.2442 22.1484 9.2442C18.6968 9.2442 16.0911 11.8032 16.0911 15.3716C16.0911 18.9176 18.6968 21.5 22.1484 21.5ZM31.5963 15.3716C31.5963 17.4614 32.9581 18.6354 34.5544 18.6354C36.1508 18.6354 36.9499 17.5792 37.2079 16.6867L39.9548 17.6026C39.4379 19.528 37.6303 21.5 34.5544 21.5C31.1505 21.5 28.4738 18.9176 28.4738 15.3716C28.4738 11.8032 31.1029 9.2442 34.461 9.2442C37.607 9.2442 39.3912 11.1929 39.8846 13.1416L37.0901 14.0809C36.8088 13.1183 36.0807 12.1322 34.5311 12.1322C32.9347 12.1322 31.5963 13.2827 31.5963 15.3716ZM51.6693 21.1476L46.9503 14.4566L50.2113 11.0303L53.439 21.1476H56.6095L59.2621 13.2594L61.9619 21.1476H65.0846L68.7008 9.59653H65.6015L63.4648 17.039L60.9759 9.59653H57.689L55.1768 17.0156L53.0401 9.59653H49.7539L47.4906 9.59654L43.4997 13.893V4.5H40.3771V21.1476H43.4997V18.0961L44.7904 16.7334L47.8429 21.1476H51.6693ZM74.0955 12.0855C75.6218 12.0855 77.0307 13.1883 77.0307 15.3716C77.0307 17.5559 75.6218 18.6587 74.0955 18.6587C72.5692 18.6587 71.1609 17.5325 71.1609 15.3716C71.1609 13.1883 72.5692 12.0855 74.0955 12.0855ZM74.0955 21.5C77.5471 21.5 80.1528 18.9176 80.1528 15.3716C80.1528 11.8032 77.5471 9.2442 74.0955 9.2442C70.644 9.2442 68.0382 11.8032 68.0382 15.3716C68.0382 18.9176 70.644 21.5 74.0955 21.5ZM87.7827 12.6958C87.4305 12.6247 87.125 12.6014 86.8435 12.6014C85.2471 12.6014 83.861 13.3762 83.861 15.8651V21.1476H80.7389V9.59653H83.7675V11.3106C84.4725 9.78439 86.0689 9.50214 87.0549 9.50214C87.3121 9.50214 87.5465 9.52541 87.7815 9.54874L87.7827 9.54887V12.6958ZM99.5738 21.1476L94.8542 14.4566L99.4798 9.59654H95.3944L91.4037 13.893V4.5H88.281V21.1476H91.4037V18.0961L92.6952 16.7334L95.7467 21.1476H99.5738ZM101.404 17.3437C101.474 18.2597 102.155 19.1046 103.517 19.1046C104.55 19.1046 105.043 18.5653 105.043 17.955C105.043 17.4381 104.691 17.0157 103.799 16.8278L102.273 16.4754C100.042 15.9829 99.0319 14.6445 99.0319 13.0239C99.0319 10.9583 100.864 9.2442 103.353 9.2442C106.639 9.2442 107.743 11.334 107.884 12.578L105.278 13.165C105.184 12.4845 104.691 11.6154 103.377 11.6154C102.554 11.6154 101.897 12.1088 101.897 12.7659C101.897 13.3295 102.319 13.6818 102.953 13.7986L104.597 14.151C106.875 14.6202 108.025 16.0062 108.025 17.696C108.025 19.5747 106.569 21.5 103.54 21.5C100.066 21.5 98.8683 19.2457 98.7275 17.9316L101.404 17.3437ZM0 16.9941V12.8322H4.16174V12.8322L5.72205e-05 12.8322L4.16174 11.2759V11.274L5.72205e-05 12.8322H0V8.67125V8.67123V4.50934H4.16174H4.16191H7.28811C7.42172 4.50934 7.55538 4.51682 7.68718 4.54018C7.90494 4.5785 8.11712 4.63458 8.32272 4.70654V4.70661C9.95636 5.27493 11.1302 6.82449 11.1302 8.65162C11.1302 8.65501 11.1299 8.65841 11.1297 8.66168L11.1294 8.66526L11.1294 8.66529L11.116 8.67031L8.32272 8.67031L8.32251 8.67031L4.16191 8.67031V8.67123H8.32251V8.67035H11.1159L11.116 8.67031H11.1292C11.1208 10.4891 9.95063 12.0303 8.32251 12.5967V12.5967C7.92171 12.7367 7.59038 12.8055 7.06973 12.8144C7.26586 12.8133 7.39653 12.8126 7.42081 12.8126C7.5498 12.8126 7.67688 12.821 7.80305 12.8322L7.79569 12.8322C7.97512 12.849 8.15078 12.8771 8.32272 12.9154V12.9154V12.9155C10.1937 13.3305 11.5937 14.9978 11.5937 16.9941C11.5937 18.9905 10.1936 20.6569 8.32251 21.0729V21.072C8.15061 21.1112 7.97499 21.1392 7.79561 21.1551H4.16191H4.16174H0V16.9942V16.9941Z" fill="#ABBAC4"></path>
+                          </svg></div>
+                        <div class="hide">Blockworks Logo</div>
+                      </a>
+                      <a href="https://www.coindesk.com/tech/2023/07/19/solanas-largest-protocol-marinade-bets-growth-on-native-sol-staking-product/" target="_blank" class="logo-wrapper w-inline-block">
+                        <div class="logo-hero_logo w-embed"><svg width="100%" height="100%" viewbox="0 0 112 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_609_26953)">
+                              <path d="M31.375 18.3531C29.3302 18.3531 28.063 16.5178 28.063 13.9786C28.063 11.4645 29.1294 9.59149 31.3624 9.59149C32.8302 9.59149 33.7962 10.5343 33.972 11.7787H37.3844C37.2085 10.2326 36.5186 8.875 35.3143 7.96993C34.3357 7.21569 32.9808 6.75061 31.375 6.75061C27.2601 6.75061 24.5879 9.86805 24.5879 13.9786C24.5879 18.1142 27.3479 21.1437 31.4002 21.1437C33.3445 21.1437 34.7622 20.6032 35.8161 19.5724C36.7569 18.6673 37.3844 17.4103 37.472 16.0401H34.0596C33.9093 17.3851 32.9055 18.3531 31.375 18.3531Z" fill="#ABBAC4"></path>
+                              <path d="M43.7704 10.6851C40.6089 10.6851 38.4888 12.9478 38.4888 15.927C38.4888 18.9061 40.6089 21.1688 43.7704 21.1688C46.9568 21.1688 49.0395 18.9061 49.0395 15.927C49.0395 12.9478 46.9568 10.6851 43.7704 10.6851ZM43.7578 18.9187C42.3903 18.9187 41.6752 17.7245 41.6752 15.927C41.6752 14.1294 42.3903 12.9101 43.7578 12.9101C45.1253 12.9101 45.8654 14.1294 45.8654 15.927C45.8531 17.7245 45.1253 18.9187 43.7578 18.9187Z" fill="#ABBAC4"></path>
+                              <path d="M53.5029 9.63301C54.1741 8.96048 54.1741 7.87011 53.5029 7.19758C52.8315 6.52504 51.7434 6.52504 51.0722 7.19758C50.4011 7.87011 50.4011 8.96048 51.0722 9.63301C51.7434 10.3055 52.8315 10.3055 53.5029 9.63301Z" fill="#ABBAC4"></path>
+                              <path d="M49.5537 13.1741H50.8708V20.8545H54.0074V10.9491H49.5537V13.1741Z" fill="#ABBAC4"></path>
+                              <path d="M61.7229 10.66C60.3557 10.66 59.402 11.2382 58.6745 12.3067H58.6118V10.9491H55.5884V20.842H58.7373V15.3739C58.7373 14.1545 59.4272 13.2872 60.4685 13.2872C61.4972 13.2872 62.0116 14.0037 62.0116 15.047V20.842H65.1605V14.406C65.1605 12.2061 63.8809 10.66 61.7229 10.66Z" fill="#ABBAC4"></path>
+                              <path d="M72.537 7.0271H66.6533V20.842H72.3239C74.0551 20.842 75.4476 20.402 76.5267 19.5849C78.0698 18.4033 78.9226 16.4549 78.9226 14.0162C78.9226 9.79257 76.3508 7.0271 72.537 7.0271ZM72.073 17.9759H70.0657V9.89315H72.1105C74.2559 9.89315 75.4728 11.5147 75.4728 14.0288C75.4602 16.5554 74.306 17.9759 72.073 17.9759Z" fill="#ABBAC4"></path>
+                              <path d="M88.2439 11.9672C87.391 11.2005 86.2744 10.7354 84.8693 10.7354C81.8582 10.7354 79.8008 12.998 79.8008 15.9521C79.8008 18.9438 81.8081 21.2065 85.0701 21.2065C86.3245 21.2065 87.328 20.8796 88.1563 20.3014C89.0217 19.698 89.5988 18.8558 89.8122 17.9633H86.7509C86.4751 18.5793 85.9356 18.9438 85.1076 18.9438C83.8154 18.9438 83.0877 18.1142 82.8869 16.7817H89.9877C90.0003 14.7579 89.4233 13.0483 88.2439 11.9672ZM82.8995 14.8962C83.1129 13.7145 83.7275 12.9603 84.9195 12.9603C85.9356 12.9603 86.6759 13.7145 86.7887 14.8962H82.8995Z" fill="#ABBAC4"></path>
+                              <path d="M96.185 14.6574C94.9303 14.4311 93.8139 14.3305 93.8139 13.6392C93.8139 13.0232 94.4159 12.7341 95.1812 12.7341C96.0469 12.7341 96.6492 13.0106 96.762 13.8906H99.66C99.5094 11.9422 98.0041 10.7228 95.2064 10.7228C92.8728 10.7228 90.9408 11.8039 90.9408 13.8906C90.9408 16.2161 92.7726 16.6686 94.4912 16.9577C95.8086 17.184 97.0003 17.2846 97.0003 18.1771C97.0003 18.8181 96.3983 19.1576 95.4572 19.1576C94.4159 19.1576 93.7635 18.6799 93.6381 17.6868H90.665C90.7653 19.8741 92.5718 21.2065 95.4698 21.2065C98.0542 21.2065 99.961 20.0878 99.961 17.9257C99.9736 15.399 97.9288 14.9465 96.185 14.6574Z" fill="#ABBAC4"></path>
+                              <path d="M107.363 14.6699L110.838 10.9491H107.213L104.277 14.2928V7.0271H101.178V20.8545H104.277V17.8125L105.23 16.8069L107.601 20.8545H111.24L107.363 14.6699Z" fill="#ABBAC4"></path>
+                              <path d="M10.763 14.8962C11.2896 14.8962 11.7165 14.4685 11.7165 13.9409C11.7165 13.4132 11.2896 12.9855 10.763 12.9855C10.2365 12.9855 9.80957 13.4132 9.80957 13.9409C9.80957 14.4685 10.2365 14.8962 10.763 14.8962Z" fill="#ABBAC4"></path>
+                              <path d="M18.3656 14.8962C18.8921 14.8962 19.319 14.4685 19.319 13.9409C19.319 13.4132 18.8921 12.9855 18.3656 12.9855C17.839 12.9855 17.4121 13.4132 17.4121 13.9409C17.4121 14.4685 17.839 14.8962 18.3656 14.8962Z" fill="#ABBAC4"></path>
+                              <path d="M18.3656 22.5264C18.8921 22.5264 19.319 22.0987 19.319 21.5711C19.319 21.0434 18.8921 20.6157 18.3656 20.6157C17.839 20.6157 17.4121 21.0434 17.4121 21.5711C17.4121 22.0987 17.839 22.5264 18.3656 22.5264Z" fill="#ABBAC4"></path>
+                              <path d="M21.1632 6.13465C21.0629 4.73934 19.9463 3.60801 18.5538 3.50745C17.6631 3.44459 16.8601 3.78399 16.2956 4.36223C15.869 4.80219 15.292 5.06617 14.6772 5.06617H14.4514C13.8241 5.06617 13.2345 4.80219 12.7954 4.34966C12.281 3.8217 11.5659 3.50745 10.7756 3.50745C9.9852 3.50745 9.27011 3.83428 8.75575 4.34966C8.31665 4.80219 7.72703 5.06617 7.09974 5.06617H6.88647C6.27176 5.06617 5.6821 4.82733 5.25555 4.38737C5.16774 4.29938 5.07991 4.21139 4.9921 4.13596C3.92575 3.26861 2.35755 3.29375 1.32882 4.21139C0.086816 5.30501 0.0366341 7.21571 1.19082 8.37217C1.20337 8.38474 1.21591 8.39731 1.22846 8.40988C1.68009 8.83728 1.91846 9.44068 1.91846 10.0566V10.2703C1.91846 10.8988 1.655 11.4896 1.20336 11.9296C0.676454 12.445 0.362817 13.1615 0.362817 13.9534C0.362817 14.7454 0.689 15.4619 1.20336 15.9773C1.655 16.4172 1.91846 17.008 1.91846 17.6366V17.9257C1.91846 18.5416 1.655 19.1199 1.21591 19.5472C0.66391 20.0878 0.325181 20.8546 0.362817 21.6968C0.425545 23.1801 1.62991 24.3743 3.09773 24.4246C3.95084 24.4497 4.7161 24.1103 5.25555 23.5446C5.6821 23.1047 6.25918 22.8281 6.87392 22.8281H7.11229C7.72703 22.8281 8.30411 23.0921 8.73066 23.5446C9.2952 24.1354 10.1107 24.4748 11.0014 24.412C12.3939 24.3114 13.523 23.1801 13.6234 21.7722C13.7363 20.1004 12.4316 18.7176 10.7881 18.7176C10.0103 18.7176 9.2952 19.0318 8.78084 19.5472C8.34174 19.9872 7.75212 20.2512 7.13738 20.2512H6.87392C6.25918 20.2512 5.65702 20.0124 5.21792 19.5598C5.20538 19.5472 5.20538 19.5472 5.19283 19.5347C4.74119 19.0947 4.47774 18.5039 4.47774 17.8754V17.624C4.47774 16.9955 4.74119 16.4047 5.19283 15.9647C5.71974 15.4493 6.03339 14.7328 6.03339 13.9409C6.03339 13.1489 5.70719 12.4324 5.19283 11.917C4.74119 11.4771 4.47774 10.8863 4.47774 10.2577V10.0315C4.47774 9.40296 4.74119 8.81213 5.18029 8.37217C5.19283 8.35962 5.19283 8.35962 5.20538 8.34705C5.21792 8.33448 5.21792 8.33448 5.23046 8.32191C5.66956 7.88194 6.25918 7.61796 6.88647 7.61796H7.11229C7.73957 7.61796 8.3292 7.88194 8.76829 8.33448C9.28265 8.86242 9.99774 9.17669 10.7881 9.17669C11.5785 9.17669 12.2936 8.84985 12.8079 8.33448C13.247 7.88194 13.8367 7.61796 14.4639 7.61796H14.6647C15.292 7.61796 15.8816 7.88194 16.3207 8.33448C16.835 8.86242 17.5501 9.17669 18.3405 9.17669C19.9714 9.18926 21.2761 7.80651 21.1632 6.13465Z" fill="#ABBAC4"></path>
+                            </g>
+                            <defs>
+                              <clippath id="clip0_609_26953">
+                                <rect width="110.88" height="21" fill="white" transform="translate(0.359863 3.5)"></rect>
+                              </clippath>
+                            </defs>
+                          </svg></div>
+                        <div class="hide">CoinDesk Logo</div>
+                      </a>
+                      <a href="https://messari.io/project/marinade-finance" target="_blank" class="logo-wrapper w-inline-block">
+                        <div class="logo-hero_logo w-embed"><svg width="100%" height="100%" viewbox="0 0 108 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_609_26971)">
+                              <g clip-path="url(#clip1_609_26971)">
+                                <path d="M31.0986 20.605H33.679V8.57912H33.9034L38.5817 20.605H40.904L45.5824 8.57912H45.8068V20.605H48.3759V4.40552H44.741L39.8495 16.9826H39.6251L34.7448 4.40552H31.0986V20.605Z" fill="#ABBAC4"></path>
+                                <path d="M49.6626 14.7889C49.6626 18.7937 51.9064 20.8749 55.4067 20.8749C58.9408 20.8749 60.2982 18.7713 60.5899 17.2526V16.9151H58.2563C58.0881 17.8488 57.2915 18.9512 55.3731 18.9512C53.3874 18.9512 52.2542 17.5563 52.2093 15.4414H60.8256V14.3277C60.8256 10.8291 58.8622 8.71411 55.3843 8.71411C51.8952 8.71411 49.6626 10.7841 49.6626 14.7889ZM52.243 13.6077C52.3889 11.8865 53.4097 10.6153 55.3619 10.6153C57.3477 10.6153 58.29 11.8527 58.3125 13.6077H52.243Z" fill="#ABBAC4"></path>
+                                <path d="M61.7961 12.1677C61.7961 14.2152 63.3219 15.2164 65.4984 15.5764L67.5178 15.9027C68.7519 16.1164 69.5821 16.4426 69.5821 17.4101C69.5821 18.4 68.7183 19.0413 67.0578 19.0413C65.3974 19.0413 64.1521 18.3776 64.0287 17.0163H61.5605V17.3538C61.841 19.435 63.7483 20.875 67.0578 20.875C70.3562 20.875 72.0952 19.4463 72.0952 17.2301C72.0952 15.0589 70.4797 14.2489 68.1573 13.8664L66.1267 13.5402C65.1057 13.3602 64.298 13.0227 64.298 12.0665C64.298 11.1328 65.2067 10.5703 66.6764 10.5703C68.1797 10.5703 69.1782 11.1215 69.268 12.404H71.6913V12.0665C71.4445 10.0978 69.6382 8.73663 66.6091 8.73663C63.6024 8.73663 61.7961 10.0529 61.7961 12.1677Z" fill="#ABBAC4"></path>
+                                <path d="M72.928 12.1677C72.928 14.2152 74.4537 15.2164 76.6305 15.5764L78.6499 15.9027C79.8834 16.1164 80.7141 16.4426 80.7141 17.4101C80.7141 18.4 79.85 19.0413 78.1894 19.0413C76.5296 19.0413 75.284 18.3776 75.1606 17.0163H72.6924V17.3538C72.9728 19.435 74.8801 20.875 78.1894 20.875C81.4879 20.875 83.2267 19.4463 83.2267 17.2301C83.2267 15.0589 81.6116 14.2489 79.2894 13.8664L77.2586 13.5402C76.2376 13.3602 75.4298 13.0227 75.4298 12.0665C75.4298 11.1328 76.3385 10.5703 77.8086 10.5703C79.3114 10.5703 80.3098 11.1215 80.4 12.404H82.8231V12.0665C82.5765 10.0978 80.7703 8.73663 77.7411 8.73663C74.7342 8.73663 72.928 10.0529 72.928 12.1677Z" fill="#ABBAC4"></path>
+                                <path d="M86.8983 12.404C86.9545 11.2116 87.9642 10.5928 89.4678 10.5928C90.982 10.5928 91.8347 11.2228 91.8347 12.4265C91.8347 13.1915 91.3863 13.4389 90.5223 13.5177L87.8633 13.7764C85.6193 14.0015 83.8472 14.9689 83.8472 17.2863C83.8472 19.4462 85.6421 20.83 88.1888 20.83C90.4889 20.83 91.5654 19.9075 92.1488 18.9175H92.3733C92.4856 19.8513 93.1137 20.6049 94.5498 20.6049H95.7279V18.7713H95.1559C94.5946 18.7713 94.3366 18.5013 94.3366 17.9501V13.0115C94.3366 10.0078 92.4181 8.71411 89.5125 8.71411C86.629 8.71411 84.7219 10.0078 84.4753 12.0665V12.404H86.8983ZM86.45 17.1963C86.45 16.0939 87.2579 15.6213 88.5256 15.4976L90.0178 15.3401C90.8925 15.2501 91.2513 15.1376 91.5995 14.9352H91.8241V15.6551C91.8241 18.0963 90.1968 18.9625 88.6932 18.9625C87.3247 18.9625 86.45 18.2763 86.45 17.1963Z" fill="#ABBAC4"></path>
+                                <path d="M96.7266 20.6049H99.3855V14.4176C99.3855 11.549 100.989 10.829 103.334 11.1215V8.87158C100.979 8.62409 99.9909 9.55781 99.5084 10.694H99.2846V8.98408H96.7266V20.6049Z" fill="#ABBAC4"></path>
+                                <path d="M104.396 7.60051H107.088V4.9906H104.396V7.60051ZM104.418 20.6049H107.077V8.98409H104.418V20.6049Z" fill="#ABBAC4"></path>
+                                <path d="M0.546875 2V23.281L6.35532 17.4558V7.82524L0.546875 2Z" fill="#ABBAC4"></path>
+                                <path d="M11.1586 12.6289L8.25439 9.72845V23.1691L14.0628 17.3682V9.72845L11.1586 12.6289Z" fill="#ABBAC4"></path>
+                                <path d="M15.9614 7.81575V23.169L21.7699 17.3533V2L15.9614 7.81575Z" fill="#ABBAC4"></path>
+                              </g>
+                            </g>
+                            <defs>
+                              <clippath id="clip0_609_26971">
+                                <rect width="107" height="28" fill="white" transform="translate(0.5)"></rect>
+                              </clippath>
+                              <clippath id="clip1_609_26971">
+                                <rect width="106.966" height="22" fill="white" transform="translate(0.5 2)"></rect>
+                              </clippath>
+                            </defs>
+                          </svg></div>
+                        <div class="hide">Messari Logo</div>
+                      </a>
+                      <a href="https://members.delphidigital.io/projects/marinade-finance" target="_blank" class="logo-wrapper w-inline-block">
+                        <div class="logo-hero_logo w-embed"><svg width="100%" height="100%" viewbox="0 0 136 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_648_4369)">
+                              <path fill-rule="evenodd" clip-rule="evenodd" d="M5.25615 8.90851C5.25615 8.94879 5.29643 8.98907 5.33671 9.02935C5.47768 9.25088 5.6388 9.49255 5.79991 9.71409L6.14228 10.2377C7.31037 9.93562 8.33748 9.25088 9.04236 8.30433C9.56598 7.49875 9.86808 6.59248 9.96877 5.64593C9.99362 5.52172 10.0151 5.40091 10.0359 5.28351L10.0359 5.28341L10.0359 5.2834L10.0359 5.28337L10.0359 5.28332L10.0359 5.28327L10.0359 5.28325L10.0359 5.28324L10.0359 5.28323L10.0359 5.2832L10.0359 5.28316C10.0658 5.11516 10.0943 4.95413 10.1299 4.80007C10.6938 2.22222 12.6272 1.98055 13.0501 1.94027C14.5203 1.94027 15.3863 3.43059 15.5877 3.83338C15.6168 3.81394 15.6471 3.79333 15.6784 3.77212L15.6784 3.77208L15.6785 3.77206L15.6786 3.77193L15.6789 3.77179L15.6789 3.77175C15.7769 3.70514 15.8837 3.63257 15.9905 3.57156C16.2724 3.39031 16.5745 3.22919 16.8967 3.08822C16.5544 2.38334 15.3057 0.449951 13.0702 0.449951H12.9897C11.3987 0.530509 9.30417 1.63818 8.65971 4.47784C8.57915 4.80007 8.51873 5.1223 8.47846 5.42439C8.41804 6.14941 8.17636 6.83415 7.79371 7.45848C7.18953 8.24391 6.26312 8.76754 5.25615 8.90851ZM4.12834 10.9426C4.59154 11.5065 4.91377 12.151 5.09503 12.8558C5.21586 13.8829 4.93391 14.8899 4.30959 15.7156L4.45057 15.7559L4.45069 15.7559C4.71246 15.8164 4.97423 15.8768 5.25614 15.917L5.86033 16.0177C6.48465 14.9906 6.70618 13.7823 6.54507 12.594C6.34367 11.6676 5.92074 10.8218 5.3367 10.0766C5.15545 9.83493 4.99433 9.59325 4.85335 9.35158C3.44359 7.13624 4.63182 5.5855 4.91377 5.26327C5.96102 4.21602 7.63259 4.65909 8.03538 4.80007C8.05552 4.71951 8.07063 4.64399 8.08573 4.56846L8.08574 4.56841L8.08574 4.56839C8.10085 4.49289 8.11595 4.41739 8.13608 4.33686C8.21664 3.99449 8.31734 3.67226 8.43817 3.35003C7.67287 3.10835 5.41726 2.60487 3.82624 4.21602C2.75885 5.42439 2.07411 7.68 3.64499 10.1169C3.76583 10.419 3.94708 10.6808 4.12834 10.9426ZM6.98814 18.6359C6.36381 18.2331 5.67907 18.0115 4.95406 17.931C4.65196 17.8907 4.30959 17.8303 4.02764 17.7699C1.18798 17.1254 0.0803136 15.0309 -0.000244141 13.4399V13.3996C-0.000244141 11.1239 1.93314 9.89534 2.63802 9.53283C2.779 9.85506 2.94011 10.1572 3.12137 10.4391C3.18238 10.5459 3.25494 10.6526 3.32156 10.7507L3.32156 10.7507L3.32163 10.7508L3.32164 10.7508L3.32188 10.7511L3.322 10.7513L3.3222 10.7516C3.34332 10.7827 3.36383 10.8129 3.38318 10.8419C2.98039 11.0433 1.49007 11.9093 1.49007 13.3795C1.53035 13.8024 1.77203 15.7358 4.34987 16.2997C4.504 16.3353 4.66511 16.3638 4.8332 16.3937L4.83321 16.3937L4.83322 16.3937C4.95065 16.4145 5.07149 16.4359 5.19573 16.4608C6.14228 16.5816 7.04856 16.924 7.85413 17.4476C8.80069 18.1525 9.48543 19.1796 9.78752 20.3477C9.65543 20.4138 9.57532 20.4711 9.46764 20.5483C9.41114 20.5887 9.34706 20.6346 9.26389 20.6901C9.04236 20.8512 8.80069 21.0123 8.57915 21.1533L8.45832 21.2338C8.31734 20.2067 7.79371 19.2803 6.98814 18.6359ZM10.4723 22.3214C11.0362 21.8582 11.6806 21.5359 12.3855 21.3547C13.4126 21.2338 14.4196 21.5359 15.2453 22.1401C15.2554 22.12 15.2604 22.0948 15.2654 22.0696C15.2705 22.0445 15.2755 22.0193 15.2856 21.9991C15.346 21.7373 15.4064 21.4755 15.4467 21.1734C15.4683 21.0763 15.4841 20.9735 15.5003 20.8679C15.5143 20.7764 15.5287 20.6829 15.5474 20.5894C14.5203 19.9651 13.3119 19.7234 12.1237 19.9046C11.1973 20.106 10.3514 20.529 9.60626 21.113C9.36459 21.2943 9.12292 21.4554 8.88124 21.5964C6.66591 23.0061 5.11517 21.8179 4.79294 21.5359C3.74569 20.4887 4.18876 18.8171 4.32973 18.4143L3.86653 18.3136C3.52416 18.2331 3.20192 18.1324 2.87969 18.0115C2.63802 18.7768 2.13454 21.0324 3.74569 22.6235C4.57141 23.3485 5.6388 23.7513 6.74646 23.7513C7.77358 23.7311 8.78055 23.429 9.64654 22.845C9.81716 22.7426 9.97494 22.6402 10.1271 22.5415L10.1272 22.5415C10.2444 22.4654 10.3583 22.3915 10.4723 22.3214ZM20.6427 17.8706L20.7232 17.9914C19.7162 18.1525 18.7898 18.6761 18.1856 19.4817C17.803 20.0859 17.5815 20.7908 17.5009 21.4957C17.4606 21.7977 17.4002 22.12 17.3197 22.4422C16.6752 25.2617 14.5807 26.3694 12.9897 26.45H12.9091C10.6736 26.45 9.44514 24.4763 9.08263 23.7915C9.40486 23.6506 9.70695 23.4895 9.9889 23.3082L10.3917 23.0464C10.5931 23.429 11.4591 24.9395 12.9293 24.9395C13.3522 24.9194 15.2856 24.6575 15.8495 22.0797C15.885 21.9256 15.9136 21.7645 15.9434 21.5965L15.9435 21.5964L15.9435 21.5963C15.9643 21.4789 15.9857 21.3581 16.0106 21.2338C16.1113 20.3074 16.4335 19.4012 16.937 18.6157C17.6419 17.649 18.669 16.9643 19.8371 16.6622C19.8568 16.6951 19.8744 16.7247 19.8908 16.7524L19.8911 16.7529C19.975 16.8944 20.028 16.9838 20.1795 17.1858C20.3406 17.4074 20.5017 17.649 20.6427 17.8706ZM21.8309 15.9573C21.3677 15.3934 21.0253 14.7489 20.8642 14.0441C20.7635 13.0169 21.0454 12.01 21.6496 11.1843L21.5087 11.144C21.2468 11.0836 20.985 11.0231 20.7031 10.9829L20.0989 10.862C19.4746 11.8891 19.2329 13.0975 19.4142 14.2857C19.6155 15.2121 20.0385 16.058 20.6225 16.8032C20.8038 17.0448 20.9649 17.2865 21.1059 17.5282C22.5156 19.7435 21.3274 21.2943 21.0454 21.6165C19.9982 22.6637 18.3266 22.2005 17.9238 22.0797C17.9037 22.1602 17.8886 22.2358 17.8735 22.3113C17.8584 22.3868 17.8433 22.4623 17.8231 22.5429C17.7426 22.8853 17.6419 23.2075 17.521 23.5297C18.0849 23.711 18.669 23.7915 19.253 23.7915C19.7767 23.8117 20.3204 23.711 20.8038 23.5096C21.3073 23.3082 21.7503 23.0262 22.133 22.6436C23.2004 21.4554 23.9052 19.1998 22.3545 16.7427C22.1934 16.481 22.0122 16.2192 21.8309 15.9574L21.8309 15.9573ZM21.0253 8.96893C21.3274 9.00921 21.6496 9.06963 21.9719 9.15018C24.8115 9.79465 25.8991 11.8891 26.0199 13.4399V13.4802C26.04 15.7358 24.0865 16.9844 23.3816 17.3469C23.2205 17.0247 23.0594 16.7226 22.858 16.4407C22.797 16.3339 22.7244 16.2271 22.6578 16.1291L22.6578 16.1291L22.6577 16.1289C22.6364 16.0975 22.6157 16.0671 22.5962 16.0379C22.999 15.8365 24.4893 14.9705 24.4893 13.5003C24.4692 13.0774 24.2074 11.144 21.6295 10.5801C21.4754 10.5445 21.3142 10.5159 21.1461 10.4861L21.146 10.4861L21.1458 10.486C21.0285 10.4652 20.9078 10.4438 20.7836 10.419C19.8371 10.3183 18.9308 9.99604 18.1454 9.49255C17.1787 8.78767 16.4939 7.76056 16.1919 6.59247C16.3933 6.49178 16.5544 6.37094 16.7155 6.25011C16.937 6.08899 17.1787 5.92787 17.4002 5.7869L17.5211 5.70634C17.662 6.71331 18.1857 7.63972 18.9912 8.28418C19.6156 8.66683 20.3003 8.90851 21.0253 8.96893ZM15.487 4.59867C14.9231 5.06188 14.2786 5.38411 13.5737 5.56536C12.5466 5.6862 11.5396 5.40425 10.7139 4.77992C10.7139 4.8202 10.7139 4.88062 10.6736 4.9209L10.6736 4.92092C10.6132 5.18273 10.5528 5.44454 10.5125 5.74662C10.4991 5.81375 10.4879 5.88089 10.4767 5.94802C10.4544 6.08228 10.432 6.21654 10.3917 6.3508C11.4188 6.97513 12.6272 7.19666 13.8154 7.03554C14.7418 6.83415 15.6078 6.41122 16.3328 5.82718C16.5745 5.64592 16.8162 5.48481 17.0578 5.34383C19.2732 3.93407 20.8239 5.1223 21.1461 5.40425C22.1934 6.4515 21.7302 8.12307 21.6094 8.52586C21.6899 8.546 21.7654 8.5611 21.841 8.57621C21.9165 8.59131 21.992 8.60642 22.0726 8.62656C22.4149 8.70711 22.7372 8.80781 23.0594 8.92865C23.3011 8.16335 23.8046 5.90773 22.1934 4.31672C20.985 3.24933 18.7294 2.56459 16.2724 4.13546C16.0106 4.23616 15.7488 4.41742 15.487 4.59867ZM105.379 16.1889L105.369 16.1789H105.389L105.379 16.1889ZM105.379 16.1889L105.389 16.199V16.1789V13.0573H103.98V15.4337C103.557 15.7559 103.013 15.9372 102.429 15.9372C101.019 15.9372 99.8511 14.8094 99.8511 13.4198C99.8511 12.0301 100.999 10.9023 102.429 10.9023C103.114 10.9023 103.718 11.1642 104.181 11.5669L105.269 10.4996C104.523 9.81481 103.537 9.39188 102.429 9.39188C100.153 9.39188 98.3205 11.1843 98.3205 13.3996C98.3205 15.615 100.153 17.4074 102.429 17.4074C103.592 17.4074 104.635 16.9284 105.379 16.1889ZM130.906 9.43217V15.9573V17.4678H136.082V15.9573H132.376V9.43217H130.906ZM128.53 17.4477L125.348 10.9023L124.562 9.43217L123.797 10.9023L120.494 17.4477H122.025L124.562 12.4329L126.999 17.4477H128.53ZM95.9641 9.43217H94.5544V17.4477H95.9641V9.43217ZM107.766 9.43217H109.176V17.4477H107.766V9.43217ZM116.083 10.9426H118.621V9.43217H116.083H114.553H112.015V10.9426H114.553V17.4678H116.083V10.9426ZM85.5922 9.43217H87.868C89.9826 9.43217 91.7146 11.1642 91.7347 13.3191V13.6212C91.7347 15.7559 90.0027 17.4879 87.868 17.4879H85.5922V15.9775H87.9888C89.3784 15.9775 90.5062 14.8497 90.5062 13.4601C90.5062 12.0704 89.3784 10.9426 87.9888 10.9426H85.5922V9.43217ZM59.1493 9.43217H62.4925C63.7814 9.43217 64.8287 10.4794 64.8287 11.7683C64.8287 13.0573 63.7814 14.1045 62.4925 14.1045H60.5591V17.4678H59.1493V14.1045V12.5538H62.6133C63.0363 12.5538 63.3988 12.2114 63.3988 11.7683C63.3988 11.3454 63.0564 10.9829 62.6133 10.9829H59.1493V9.43217ZM67.6481 9.43217V17.4477H69.1183V9.43217H67.6481ZM72.3205 9.43217V12.7955H69.1384V14.3462H72.3205V17.4477H73.7906V9.43217H72.3205ZM51.1337 9.43217V15.9573V17.4678H56.3297V15.9573H52.624V9.43217H51.1337ZM76.61 9.43217H78.0198V17.4477H76.61V9.43217ZM36.4119 9.43217H34.1362V10.9426H36.5327C37.9224 10.9426 39.0502 12.0704 39.0502 13.4601C39.0502 14.8497 37.9224 15.9775 36.5327 15.9775H34.1362V17.4879H36.4119C38.5467 17.4879 40.2787 15.7559 40.2787 13.6212V13.3191C40.2787 11.1642 38.5467 9.43217 36.4119 9.43217ZM47.8309 9.43217H42.6349V10.9426H47.8309V9.43217ZM47.3274 12.6948H42.6349V14.2052H47.3274V12.6948ZM42.6349 15.9573H47.8309V17.4678H42.6349V15.9573Z" fill="#ABBAC4"></path>
+                            </g>
+                          </svg></div>
+                        <div class="hide">Delphi Digital Logo</div>
+                      </a>
+                      <a href="https://www.theblock.co/post/205374/marinade-finance-announces-rewards-to-boost-liquid-staking-on-solana" target="_blank" class="logo-wrapper w-inline-block">
+                        <div class="logo-hero_logo w-embed"><svg width="100%" height="100%" viewbox="0 0 145 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.6805 6.81771L11.1231 3.0824C10.7661 2.97253 10.6562 2.97253 10.2992 3.0824L0.741785 6.81771C0.357294 6.98251 0.274902 7.11984 0.274902 7.50436V20.3033C0.274902 20.7153 0.357294 20.7977 0.741785 20.9899L10.2992 24.8901C10.4914 24.9724 10.6013 24.9999 10.7386 24.9999C10.8484 24.9999 10.9858 24.9724 11.1505 24.8901L20.7079 20.9899C21.0925 20.8526 21.1748 20.7153 21.1748 20.3033V7.50436C21.1473 7.11984 21.065 6.98251 20.6805 6.81771ZM18.7306 20.3582L10.7111 23.5717L2.69171 20.3582L10.7111 17.4744L18.7306 20.3582ZM2.71918 7.44942L10.7111 4.40075L18.7031 7.44942L10.7111 10.3608L2.71918 7.44942ZM13.7596 16.2933C13.9244 16.2384 14.0343 16.0736 14.0343 15.9088V11.9263C14.0343 11.7615 13.9244 11.5967 13.7596 11.5418L12.6885 11.1024L19.7742 8.49311V19.342L12.6885 16.7328L13.7596 16.2933ZM12.6336 12.613V15.2222L10.7111 15.9912L8.81611 15.2222V12.613L10.7111 11.8439L12.6336 12.613ZM7.69011 11.5418C7.52535 11.5967 7.41546 11.7615 7.41546 11.9538V15.9088C7.41546 16.0736 7.52535 16.2384 7.69011 16.2933L8.76122 16.7328L1.67555 19.342V8.49311L8.76122 11.1298L7.69011 11.5418ZM31.7264 20.8577H35.0578V9.7918H39.87V7.14224H26.8948V9.7918H31.7264V20.8577ZM44.2201 20.8577H40.8887V7.14224H44.2201V12.2856H50.5324V7.14224H53.8639V20.8577H50.5324V14.9546H44.2201V20.8577ZM67.3152 12.4024H59.6592V9.81131H67.7246V7.14224H56.3276V20.8577H67.7246V18.1887H59.6592V15.0715H67.3152V12.4024ZM81.3305 20.8577H73.8684V7.14224H81.4665C84.7399 7.14224 86.1618 8.73978 86.1618 10.6686C86.1618 12.266 85.188 13.2012 84.1164 13.5909C85.441 14 86.6689 15.0325 86.6689 16.7664C86.6689 19.3576 84.7005 20.8577 81.3305 20.8577ZM77.1418 9.63595V12.4998H80.7654C82.2458 12.4998 82.7332 11.9154 82.7332 11.0776C82.7332 10.0451 81.9343 9.63595 80.7851 9.63595H77.1418ZM80.9605 14.9936H77.1418V18.3835H80.902C82.1879 18.3835 83.1617 18.0133 83.1617 16.6495C83.1617 15.5586 82.4212 14.9936 80.9605 14.9936ZM88.2043 20.8577H98.7638V18.1887H91.5356V7.14224H88.2043V20.8577ZM99.1528 13.961C99.1528 10.1814 101.958 6.84998 106.614 6.84998C111.407 6.84998 113.979 10.2009 113.979 13.9415C113.979 17.76 111.446 21.1499 106.459 21.1499C101.802 21.1499 99.1528 17.9743 99.1528 13.961ZM110.472 13.9805C110.472 11.5647 109.283 9.44108 106.517 9.44108C103.848 9.44108 102.66 11.6036 102.66 13.922C102.66 16.5132 103.965 18.5588 106.653 18.5588C109.4 18.5588 110.472 16.221 110.472 13.9805ZM125.651 16.4937C125.105 17.8185 124.248 18.5783 122.3 18.5783C119.592 18.5783 118.384 16.4157 118.384 13.8831C118.384 11.3894 119.708 9.42163 122.28 9.42163C124.618 9.42163 125.358 10.688 125.651 11.4673H129.021C128.612 9.18785 126.528 6.84998 122.319 6.84998C117.468 6.84998 114.877 10.2594 114.877 14.0195C114.877 17.76 117.234 21.1499 122.144 21.1499C126.45 21.1499 128.359 18.9095 128.982 16.4937H125.651ZM133.534 20.8577H130.202V7.14224H133.534V13.1427C134.408 12.3293 135.271 11.535 136.188 10.6899C137.336 9.63259 138.571 8.49575 140.022 7.14224H144.094L137.645 13.0454L144.444 20.8577H140.314L135.268 14.8767L133.534 16.3183V20.8577Z" fill="#ABBAC4"></path>
+                          </svg></div>
+                        <div class="hide">The Block Logo</div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-banners margin-top margin-xxlarge">
+                <div class="hero-banner is-single is-quote">
+                  <div class="quote_icon-wrapper is-liquid">
+                    <div class="quote_icon-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 64 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M26.8609 51.1713L41.8536 13.6105H52.9009L44.0631 51.1713H26.8609ZM0.189624 51.1713L15.0245 13.6105H26.0718L17.3918 51.1713H0.189624Z" fill="#EB8302"></path>
+                      </svg></div>
+                  </div>
+                  <div>
+                    <div class="quote_text hero_30 is-liquid">Marinade is a trusted partner, leveraging Solana&#x27;s <em class="italic-serif">high-speed infrastructure to provide secure and efficient staking solutions.</em></div>
+                  </div>
+                  <div class="logo_solana-wrapper">
+                    <div class="logo-solana_logo w-embed"><svg width="113" height="25" viewbox="0 0 113 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3607_48490)">
+                          <path d="M36.0253 4.48838H29.7863V6.04813H34.3666C34.5845 6.04791 34.8003 6.09066 35.0017 6.17394C35.203 6.25721 35.3859 6.37938 35.54 6.53345C35.6941 6.68752 35.8163 6.87046 35.8995 7.07181C35.9828 7.27315 36.0256 7.48894 36.0253 7.70683V9.06902C36.0264 9.28713 35.9842 9.50329 35.9013 9.705C35.8183 9.90671 35.6961 10.09 35.5419 10.2442C35.3877 10.3984 35.2044 10.5205 35.0026 10.6034C34.8009 10.6864 34.5848 10.7285 34.3666 10.7274H28.2266V9.16763H34.4656V7.60788H29.8853C29.6674 7.6081 29.4516 7.56535 29.2503 7.48207C29.0489 7.3988 28.866 7.27662 28.7119 7.12256C28.5578 6.96849 28.4357 6.78555 28.3524 6.5842C28.2691 6.38286 28.2264 6.16707 28.2266 5.94918V4.58732C28.2255 4.36921 28.2677 4.15306 28.3507 3.95135C28.4336 3.74964 28.5558 3.56638 28.71 3.41216C28.8643 3.25795 29.0476 3.13585 29.2493 3.05291C29.451 2.96997 29.6672 2.92784 29.8853 2.92896H36.0253V4.48872V4.48838ZM43.5883 2.92863C44.511 2.92863 45.2581 3.66462 45.2581 4.58732V9.06869C45.2581 9.99139 44.511 10.7274 43.5883 10.7274H38.7884C38.5702 10.7285 38.354 10.6864 38.1523 10.6034C37.9505 10.5204 37.7672 10.3983 37.613 10.2441C37.4587 10.0898 37.3366 9.90652 37.2536 9.70477C37.1707 9.50302 37.1285 9.28682 37.1297 9.06869V4.58732C37.1285 4.36919 37.1707 4.15299 37.2536 3.95124C37.3366 3.74949 37.4587 3.56619 37.613 3.41194C37.7672 3.2577 37.9505 3.13556 38.1523 3.0526C38.354 2.96964 38.5702 2.9275 38.7884 2.92863H43.5883ZM43.6872 4.48838H38.6894V9.16763H43.6872V4.48838ZM48.0354 9.11274H54.1206V10.7935H47.4312C47.1458 10.793 46.8723 10.6794 46.6705 10.4777C46.4687 10.2759 46.3551 10.0023 46.3547 9.71692V2.86255H48.0354V9.1124V9.11274ZM61.9922 2.92863C62.739 2.92863 63.3432 3.52162 63.3432 4.2688V10.7274H61.7723V8.16801H56.7745V10.7274H55.2147V4.2688C55.2136 4.09249 55.2475 3.91771 55.3144 3.75461C55.3814 3.5915 55.4801 3.44332 55.6047 3.31864C55.7294 3.19397 55.8776 3.0953 56.0407 3.02835C56.2038 2.9614 56.3786 2.9275 56.5549 2.92863H61.9922ZM61.7723 4.48838H56.7745V6.60826H61.7723V4.48838ZM70.9972 2.92863H72.5682V9.71692C72.5682 10.277 72.1067 10.7274 71.5465 10.7274H70.3382C69.9539 10.7382 69.6134 10.5295 69.4375 10.1893L66.4061 4.48838H65.9995V10.7274H64.4397V3.95027C64.4397 3.37896 64.8901 2.92863 65.4505 2.92863H66.7246C67.098 2.92863 67.4494 3.12652 67.6253 3.46673L70.6567 9.16763H70.9972V2.92863ZM80.4418 2.92863C81.189 2.92863 81.7928 3.52162 81.7928 4.2688V10.7274H80.2222V8.16801H75.2245V10.7274H73.6647V4.2688C73.6636 4.09249 73.6975 3.91771 73.7644 3.75461C73.8314 3.5915 73.9301 3.44332 74.0547 3.31864C74.1794 3.19397 74.3276 3.0953 74.4907 3.02835C74.6538 2.9614 74.8286 2.9275 75.0049 2.92863H80.4418ZM80.2222 4.48838H75.2245V6.60826H80.2222V4.48838ZM35.8715 14.654H29.7863V16.2138H35.8715V17.7735H29.7863V20.893H28.2266V13.0943H35.8715V14.654ZM43.4276 13.0943C44.35 13.0943 45.0972 13.8303 45.0972 14.753V19.2343C45.0972 20.1571 44.35 20.893 43.4276 20.893H38.6274C38.4093 20.8942 38.1931 20.852 37.9913 20.7691C37.7896 20.6861 37.6063 20.564 37.452 20.4097C37.2978 20.2555 37.1756 20.0722 37.0927 19.8704C37.0097 19.6687 36.9676 19.4525 36.9687 19.2343V14.753C36.9676 14.5348 37.0097 14.3187 37.0927 14.1169C37.1756 13.9152 37.2978 13.7319 37.452 13.5776C37.6063 13.4234 37.7896 13.3012 37.9913 13.2183C38.1931 13.1353 38.4093 13.0932 38.6274 13.0943H43.4276ZM43.5262 14.654H38.5285V19.3333H43.5262V14.654ZM52.7512 13.0943H54.3218V18.2788C54.311 19.7287 53.1467 20.893 51.6967 20.893H48.808C48.4644 20.8941 48.124 20.8272 47.8063 20.6961C47.4887 20.5651 47.2001 20.3726 46.9571 20.1296C46.7142 19.8867 46.5216 19.5981 46.3906 19.2804C46.2596 18.9628 46.1927 18.6224 46.1937 18.2788V13.0943H47.7535V17.9603C47.7536 18.3244 47.8982 18.6736 48.1557 18.931C48.4132 19.1885 48.7624 19.3332 49.1265 19.3333H51.3782C51.7423 19.3332 52.0915 19.1885 52.349 18.931C52.6065 18.6736 52.7512 18.3244 52.7512 17.9603V13.0943ZM61.9762 13.0943H63.5468V19.8826C63.5468 20.4427 63.0857 20.893 62.5255 20.893H61.3172C60.9326 20.9039 60.5924 20.6952 60.4165 20.3549L57.3848 14.654H56.9785V20.893H55.4187V14.1159C55.4187 13.5446 55.869 13.0943 56.4292 13.0943H57.7033C58.0767 13.0943 58.4284 13.2922 58.604 13.6327L61.6357 19.3333H61.9762V13.0943ZM70.1467 13.0943C71.5967 13.0943 72.761 14.2698 72.7718 15.7086V18.2788C72.761 19.7287 71.5967 20.893 70.1467 20.893H64.6437V13.0943H70.1467ZM71.2012 16.0379C71.2012 15.2691 70.5859 14.654 69.8282 14.654H66.2035V19.3333H69.8282C70.1923 19.3331 70.5414 19.1884 70.7989 18.9309C71.0563 18.6735 71.2011 18.3244 71.2012 17.9603V16.0379ZM80.6458 13.0943C81.3927 13.0943 81.9968 13.6873 81.9968 14.4345V20.893H80.4262V18.3337H75.4285V20.893H73.8687V14.4345C73.8675 14.2582 73.9014 14.0834 73.9683 13.9203C74.0352 13.7572 74.1339 13.609 74.2585 13.4843C74.3832 13.3597 74.5313 13.261 74.6944 13.194C74.8575 13.1271 75.0323 13.0932 75.2085 13.0943H80.6458ZM80.4262 14.654H75.4285V16.7739H80.4262V14.654ZM83.0934 13.0943H90.8921V14.654H87.7726V20.893H86.2129V14.654H83.0934V13.0943ZM93.5565 20.893H91.9968V13.0943H93.5565V20.893ZM101.115 13.0943C102.038 13.0943 102.785 13.8303 102.785 14.753V19.2343C102.785 20.1571 102.038 20.893 101.115 20.893H96.3155C96.0974 20.8942 95.8812 20.852 95.6794 20.7691C95.4777 20.6861 95.2944 20.564 95.1401 20.4097C94.9859 20.2555 94.8637 20.0722 94.7808 19.8704C94.6978 19.6687 94.6557 19.4525 94.6568 19.2343V14.753C94.6557 14.5348 94.6978 14.3187 94.7808 14.1169C94.8637 13.9152 94.9859 13.7319 95.1401 13.5776C95.2944 13.4234 95.4777 13.3012 95.6794 13.2183C95.8812 13.1353 96.0974 13.0932 96.3155 13.0943H101.115ZM101.214 14.654H96.2166V19.3333H101.214V14.654ZM110.439 13.0943H112.01V19.8826C112.01 20.4427 111.549 20.893 110.989 20.893H109.78C109.396 20.9039 109.055 20.6952 108.88 20.3549L105.848 14.654H105.442V20.893H103.882V14.1159C103.882 13.5446 104.332 13.0943 104.892 13.0943H106.166C106.54 13.0943 106.892 13.2922 107.067 13.6327L110.099 19.3333H110.439V13.0943Z" fill="white"></path>
+                          <mask id="mask0_3607_48490" style="mask-type:luminance" maskunits="userSpaceOnUse" x="0" y="3" width="21" height="19">
+                            <path d="M3.05176e-05 3.10107H20.1396V21.1451H3.05176e-05V3.10107Z" fill="white"></path>
+                          </mask>
+                          <g mask="url(#mask0_3607_48490)">
+                            <path d="M20.0352 17.3273L16.711 20.8992C16.6388 20.9768 16.5513 21.0388 16.454 21.0811C16.3568 21.1234 16.2519 21.1452 16.1458 21.1452H0.385978C0.329625 21.1453 0.273932 21.1331 0.22282 21.1093C0.171709 21.0856 0.126421 21.0509 0.0901444 21.0078C0.0538677 20.9647 0.0274839 20.9141 0.0128501 20.8597C-0.00178364 20.8053 -0.0043117 20.7483 0.00544388 20.6928C0.0183204 20.6183 0.0525448 20.5498 0.103712 20.4946L3.43093 16.9227C3.50297 16.8454 3.59014 16.7837 3.68701 16.7414C3.78389 16.6991 3.88842 16.6772 3.99411 16.677H19.7536C19.8288 16.677 19.9024 16.699 19.9653 16.7403C20.0281 16.7816 20.0775 16.8404 20.1074 16.9095C20.1373 16.9786 20.1464 17.0549 20.1336 17.1291C20.1209 17.2033 20.0864 17.2722 20.0352 17.3273ZM16.711 10.1348C16.6388 10.0571 16.5513 9.99519 16.454 9.95286C16.3568 9.91053 16.2519 9.88871 16.1458 9.88875H0.385978C0.329596 9.8886 0.273865 9.9008 0.222712 9.92452C0.171559 9.94823 0.126228 9.98288 0.0899143 10.026C0.0536002 10.0691 0.0271861 10.1197 0.012533 10.1742C-0.00212009 10.2286 -0.00465563 10.2856 0.00510502 10.3411C0.0179815 10.4153 0.0522059 10.4841 0.103373 10.5394L3.43059 14.1109C3.5026 14.1883 3.58975 14.2501 3.68663 14.2924C3.78351 14.3347 3.88805 14.3567 3.99377 14.3569H19.7533C19.8095 14.3569 19.8651 14.3446 19.9161 14.3208C19.9671 14.2971 20.0123 14.2624 20.0486 14.2194C20.0848 14.1763 20.1112 14.1258 20.1258 14.0715C20.1405 14.0172 20.1431 13.9603 20.1335 13.9049C20.1207 13.8306 20.0865 13.7617 20.0352 13.7066L16.711 10.1348ZM0.385301 7.56861H16.1455C16.2515 7.56869 16.3564 7.54688 16.4536 7.50455C16.5508 7.46222 16.6382 7.40028 16.7103 7.3226L20.0348 3.75107C20.0861 3.69597 20.1202 3.62711 20.133 3.55293C20.1457 3.47875 20.1365 3.40246 20.1066 3.33342C20.0766 3.26437 20.0272 3.20555 19.9643 3.16418C19.9014 3.1228 19.8278 3.10066 19.7526 3.10046H3.99411C3.88841 3.10062 3.78387 3.1225 3.68699 3.16477C3.59011 3.20703 3.50295 3.26876 3.43093 3.34613L0.10439 6.91835C0.0531707 6.97338 0.0190922 7.04215 0.00631832 7.11623C-0.00645551 7.19032 0.00262861 7.26653 0.0324606 7.33553C0.0622926 7.40454 0.111581 7.46337 0.174301 7.50482C0.237022 7.54627 0.31046 7.56856 0.38564 7.56895L0.385301 7.56861Z" fill="#ABBAC4"></path>
+                            <path d="M20.0352 17.3273L16.711 20.8992C16.6388 20.9768 16.5513 21.0388 16.454 21.0811C16.3568 21.1234 16.2519 21.1452 16.1458 21.1452H0.385978C0.329625 21.1453 0.273932 21.1331 0.22282 21.1093C0.171709 21.0856 0.126421 21.0509 0.0901444 21.0078C0.0538677 20.9647 0.0274839 20.9141 0.0128501 20.8597C-0.00178364 20.8053 -0.0043117 20.7483 0.00544388 20.6928C0.0183204 20.6183 0.0525448 20.5498 0.103712 20.4946L3.43093 16.9227C3.50297 16.8454 3.59014 16.7837 3.68701 16.7414C3.78389 16.6991 3.88842 16.6772 3.99411 16.677H19.7536C19.8288 16.677 19.9024 16.699 19.9653 16.7403C20.0281 16.7816 20.0775 16.8404 20.1074 16.9095C20.1373 16.9786 20.1464 17.0549 20.1336 17.1291C20.1209 17.2033 20.0864 17.2722 20.0352 17.3273ZM16.711 10.1348C16.6388 10.0571 16.5513 9.99519 16.454 9.95286C16.3568 9.91053 16.2519 9.88871 16.1458 9.88875H0.385978C0.329596 9.8886 0.273865 9.9008 0.222712 9.92452C0.171559 9.94823 0.126228 9.98288 0.0899143 10.026C0.0536002 10.0691 0.0271861 10.1197 0.012533 10.1742C-0.00212009 10.2286 -0.00465563 10.2856 0.00510502 10.3411C0.0179815 10.4153 0.0522059 10.4841 0.103373 10.5394L3.43059 14.1109C3.5026 14.1883 3.58975 14.2501 3.68663 14.2924C3.78351 14.3347 3.88805 14.3567 3.99377 14.3569H19.7533C19.8095 14.3569 19.8651 14.3446 19.9161 14.3208C19.9671 14.2971 20.0123 14.2624 20.0486 14.2194C20.0848 14.1763 20.1112 14.1258 20.1258 14.0715C20.1405 14.0172 20.1431 13.9603 20.1335 13.9049C20.1207 13.8306 20.0865 13.7617 20.0352 13.7066L16.711 10.1348ZM0.385301 7.56861H16.1455C16.2515 7.56869 16.3564 7.54688 16.4536 7.50455C16.5508 7.46222 16.6382 7.40028 16.7103 7.3226L20.0348 3.75107C20.0861 3.69597 20.1202 3.62711 20.133 3.55293C20.1457 3.47875 20.1365 3.40246 20.1066 3.33342C20.0766 3.26437 20.0272 3.20555 19.9643 3.16418C19.9014 3.1228 19.8278 3.10066 19.7526 3.10046H3.99411C3.88841 3.10062 3.78387 3.1225 3.68699 3.16477C3.59011 3.20703 3.50295 3.26876 3.43093 3.34613L0.10439 6.91835C0.0531707 6.97338 0.0190922 7.04215 0.00631832 7.11623C-0.00645551 7.19032 0.00262861 7.26653 0.0324606 7.33553C0.0622926 7.40454 0.111581 7.46337 0.174301 7.50482C0.237022 7.54627 0.31046 7.56856 0.38564 7.56895L0.385301 7.56861Z" fill="white"></path>
+                          </g>
+                        </g>
+                        <defs>
+                          <clippath id="clip0_3607_48490">
+                            <rect width="112.8" height="24" fill="white" transform="translate(0 0.083252)"></rect>
+                          </clippath>
+                        </defs>
+                      </svg></div>
+                  </div>
+                </div>
+              </div>
+              <div class="hero-usps margin-top margin-xxlarge">
+                <div class="hero-usp">
+                  <div class="hero-usp-title">
+                    <div class="hero-usp-header_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="0.083252" width="36" height="36" rx="10" fill="#49A6A3" fill-opacity="0.15"></rect>
+                        <path d="M25.0118 10.0833V14.0833H25H21.0118M11 26.0833V22.0833H15M10 18.0833C10 13.665 13.5817 10.0833 18 10.0833C20.6362 10.0833 23.0303 11.3584 24.5 13.3255M26 18.0833C26 22.5016 22.4183 26.0833 18 26.0833C15.3638 26.0833 12.9697 24.8082 11.5 22.8411M18 18.0833H18.01" stroke="#308D8A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg></div>
+                    <h6 class="hero-usp-header_title">Instant liquidity</h6>
+                  </div>
+                  <p class="text-size-medium hero-usp-text">Swap mSOL for SOL anytime, avoiding unstaking wait periods.</p>
+                </div>
+                <div class="hero-usp">
+                  <div class="hero-usp-title">
+                    <div class="hero-usp-header_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect y="0.083252" width="36" height="36" rx="10" fill="#49A6A3" fill-opacity="0.15"></rect>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M17.5939 9.16944C17.8524 9.05452 18.1476 9.05452 18.4061 9.16944L27.4061 13.1694C27.7673 13.3299 28 13.6881 28 14.0833C28 14.4784 27.7673 14.8366 27.4061 14.9971L18.4061 18.9971C18.1476 19.112 17.8524 19.112 17.5939 18.9971L8.59386 14.9971C8.23273 14.8366 8 14.4784 8 14.0833C8 13.6881 8.23273 13.3299 8.59386 13.1694L17.5939 9.16944ZM11.4622 14.0833L18 16.989L24.5378 14.0833L18 11.1776L11.4622 14.0833Z" fill="#308D8A"></path>
+                        <path d="M27.4061 17.1694C27.7673 17.3299 28 17.688 28 18.0832C28 18.4784 27.7673 18.8365 27.4061 18.997L18.4061 22.997C18.1476 23.1119 17.8524 23.1119 17.5939 22.997L8.59386 18.997C8.23273 18.8365 8 18.4784 8 18.0832C8 17.688 8.23273 17.3299 8.59386 17.1694C8.85243 17.0545 9.14758 17.0545 9.40614 17.1694L18 20.9889L26.5939 17.1694C26.8524 17.0545 27.1476 17.0545 27.4061 17.1694Z" fill="#308D8A"></path>
+                        <path d="M27.4061 21.1694C27.7673 21.3299 28 21.688 28 22.0832C28 22.4784 27.7673 22.8365 27.4061 22.997L18.4061 26.997C18.1476 27.1119 17.8524 27.1119 17.5939 26.997L8.59386 22.997C8.23273 22.8365 8 22.4784 8 22.0832C8 21.688 8.23273 21.3299 8.59386 21.1694C8.85243 21.0545 9.14758 21.0545 9.40614 21.1694L18 24.9889L26.5939 21.1694C26.8524 21.0545 27.1476 21.0545 27.4061 21.1694Z" fill="#308D8A"></path>
+                      </svg></div>
+                    <h6 class="hero-usp-header_title">DeFi integrations</h6>
+                  </div>
+                  <p class="text-size-medium hero-usp-text">Use mSOL across lending, farming, and liquidity pools for extra yield.</p>
+                </div>
+                <div class="hero-usp">
+                  <div class="hero-usp-title">
+                    <div class="hero-usp-header_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.833496" width="36" height="36" rx="10" fill="#49A6A3" fill-opacity="0.15"></rect>
+                        <path d="M18.8335 22C22.6995 22 25.8335 18.866 25.8335 15C25.8335 11.134 22.6995 8 18.8335 8C14.9675 8 11.8335 11.134 11.8335 15C11.8335 18.866 14.9675 22 18.8335 22ZM18.8335 22C17.3463 22 15.9673 21.536 14.8335 20.7451M18.8335 22C20.3207 22 21.6997 21.536 22.8335 20.7451M22.8335 21.25V27.9998L18.8335 25.9998L14.8335 27.9998V21.25" stroke="#308D8A" stroke-width="2" stroke-linejoin="round"></path>
+                      </svg></div>
+                    <h6 class="hero-usp-header_title">Highest APY</h6>
+                  </div>
+                  <p class="text-size-medium hero-usp-text">Optimized delegation ensures top-tier staking rewards while keeping secure.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="31519273-ec66-979d-b80e-bcfcf60440e1" style="opacity:0" class="section_features">
+        <div class="padding-section-medium">
+          <div class="padding-global">
+            <div class="container-large">
+              <div class="features_component">
+                <div class="features_list-track">
+                  <div class="features_list-item">
+                    <div class="features_content-wrapper is-mobile"><img src="../images/liquid-img-1.webp" loading="lazy" sizes="(max-width: 1136px) 100vw, 1136px" srcset="../images/3ef0c76af579ab78df09fc85b260aafd_liquid-img-1-p-500.webp 500w, ../images/3ef0c76af579ab78df09fc85b260aafd_liquid-img-1-p-800.webp 800w, ../images/3ef0c76af579ab78df09fc85b260aafd_liquid-img-1-p-1080.webp 1080w, ../images/liquid-img-1.webp 1136w" alt="" class="feature_image is-liquid img-1"></div>
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-heading-label hero_30">Liquid</div>
+                    </div>
+                    <div class="margin-bottom margin-xsmall">
+                      <h3 class="heading-style-h3">Make Your Stake Liquid</h3>
+                    </div>
+                    <div class="margin-bottom margin-xxsmall">
+                      <div class="text-size-medium">Deposit your staked SOL to Marinade to receive mSOL. Hold mSOL to earn staking rewards, no further staking required. Stay fully liquid and DeFi-ready.</div>
+                    </div>
+                  </div>
+                  <div class="features_list-item">
+                    <div class="features_content-wrapper is-mobile"><img src="../images/liquid-img-2.webp" loading="lazy" sizes="(max-width: 1136px) 100vw, 1136px" srcset="../images/0632fc6f3f6e6598fada59e1057af5ce_liquid-img-2-p-500.webp 500w, ../images/0632fc6f3f6e6598fada59e1057af5ce_liquid-img-2-p-800.webp 800w, ../images/0632fc6f3f6e6598fada59e1057af5ce_liquid-img-2-p-1080.webp 1080w, ../images/liquid-img-2.webp 1136w" alt="" class="feature_image is-liquid img-2"></div>
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-heading-label hero_30">Re-usable</div>
+                    </div>
+                    <div class="margin-bottom margin-xsmall">
+                      <h3 class="heading-style-h3">Use mSOL across DeFi or swap it anytime</h3>
+                    </div>
+                    <div class="margin-bottom margin-xxsmall">
+                      <div class="text-size-medium">Unlock the full utility of your staked SOL—use mSOL as collateral across Solana DeFi or trade it instantly for other tokens at the best available rate.</div>
+                    </div>
+                  </div>
+                  <div class="features_list-item">
+                    <div class="features_content-wrapper is-mobile"><img src="../images/liquid_3.webp" loading="lazy" sizes="(max-width: 1136px) 100vw, 1136px" srcset="../images/liquid_3-p-500.webp 500w, ../images/liquid_3-p-800.webp 800w, ../images/liquid_3-p-1080.webp 1080w, ../images/liquid_3.webp 1136w" alt="" class="feature_image is-liquid img-3"></div>
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-heading-label hero_30">Rewards</div>
+                    </div>
+                    <div class="margin-bottom margin-xsmall">
+                      <h3 class="heading-style-h3">Stake Auction Marketplace powered rewards</h3>
+                    </div>
+                    <div class="margin-bottom margin-medium">
+                      <div class="text-size-medium">Earn extra rewards from validators bidding for your stake every epoch.</div>
+                    </div>
+                    <a data-color="brand" href="../how-it-works/sam.html" class="link w-inline-block">
+                      <div class="link_text">What is Stake Auction Marketplace</div>
+                    </a>
+                  </div>
+                </div>
+                <div id="sticky-element" data-scroll="" data-scroll-sticky="" data-scroll-target="" class="features_content-track">
+                  <div class="features_content-wrapper"><img src="../images/liquid-img-1.webp" loading="lazy" sizes="(max-width: 1136px) 100vw, 1136px" srcset="../images/3ef0c76af579ab78df09fc85b260aafd_liquid-img-1-p-500.webp 500w, ../images/3ef0c76af579ab78df09fc85b260aafd_liquid-img-1-p-800.webp 800w, ../images/3ef0c76af579ab78df09fc85b260aafd_liquid-img-1-p-1080.webp 1080w, ../images/liquid-img-1.webp 1136w" alt="" class="feature_image is-liquid img-1"><img src="../images/liquid-img-2.webp" loading="lazy" sizes="(max-width: 1136px) 100vw, 1136px" srcset="../images/0632fc6f3f6e6598fada59e1057af5ce_liquid-img-2-p-500.webp 500w, ../images/0632fc6f3f6e6598fada59e1057af5ce_liquid-img-2-p-800.webp 800w, ../images/0632fc6f3f6e6598fada59e1057af5ce_liquid-img-2-p-1080.webp 1080w, ../images/liquid-img-2.webp 1136w" alt="" class="feature_image is-liquid img-2"><img src="../images/liquid_3.webp" loading="lazy" sizes="(max-width: 1136px) 100vw, 1136px" srcset="../images/liquid_3-p-500.webp 500w, ../images/liquid_3-p-800.webp 800w, ../images/liquid_3-p-1080.webp 1080w, ../images/liquid_3.webp 1136w" alt="" class="feature_image is-liquid img-3"></div>
+                </div>
+              </div>
+              <div class="margin-top margin-huge">
+                <a href="https://app.marinade.finance/" class="button is-huge is-brand w-button">Optimize your staking</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_msol_cookbook">
+        <div class="padding-section-medium is-features">
+          <div class="padding-global">
+            <div class="container-large hero_2-0 centered gap-2rem hug">
+              <div class="max-width-medium gap-med align-center">
+                <div class="w-layout-vflex header-heading align-center">
+                  <p class="text-heading-label hero_30 align-center">Optimized Rewards</p>
+                  <h2 class="heading-2 hero_30">mSOL Cookbook</h2>
+                </div>
+              </div>
+              <div class="margin-top margin-huge">
+                <a href="https://app.marinade.finance/" class="button is-huge is-brand w-button">Optimize your staking</a>
+              </div>
+              <div class="msol-cookbook_grid">
+                <div id="w-node-_31519273-ec66-979d-b80e-bcfcf6044129-c5ecd4f4" class="msol-cookbook_card">
+                  <div class="msol-cookbook_card_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect y="0.581055" width="36" height="36" rx="10" fill="#49A6A3" fill-opacity="0.15"></rect>
+                      <path d="M20 16.0811C21.5188 16.0811 22.75 14.8498 22.75 13.3311C22.75 11.8123 21.5188 10.5811 20 10.5811C18.4812 10.5811 17.25 11.8123 17.25 13.3311C17.25 14.8498 18.4812 16.0811 20 16.0811Z" stroke="#308D8A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M18.5317 11.0054C18.113 10.0212 17.1371 9.33105 16 9.33105C14.4812 9.33105 13.25 10.5623 13.25 12.0811C13.25 13.5998 14.4812 14.8311 16 14.8311C16.5399 14.8311 17.0435 14.6755 17.4683 14.4067" stroke="#308D8A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M9.75 26.8312H10.7812C10.7812 26.8312 14.4903 28.086 16.9688 27.8281C19.6138 27.5529 23.902 25.0111 25.5626 23.9715C25.9965 23.6998 26.25 23.2237 26.25 22.7119C26.25 21.6803 25.249 20.9451 24.2647 21.2537L17 23.5312" stroke="#308D8A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      <path d="M9.75 21.0186L13.0147 19.85C13.9697 19.5082 14.9875 19.3779 15.9978 19.4683L20.1456 19.8395C20.4589 19.8676 20.6688 20.1744 20.5814 20.4765L20.5673 20.5251C20.1977 21.8027 19.2173 22.8131 17.9514 23.2209L17 23.5274" stroke="#308D8A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></div>
+                  <div class="msol-cookbook_card_text">
+                    <h4 class="bento-card-heading hero_30">Earn more with lending</h4>
+                    <p class="text-size-regular text-color-secondary">Put your mSOL to work by depositing it into lending protocols like Kamino or marginFi. You’ll earn interest from borrowers while still collecting staking rewards—doubling your passive income stream without giving up ownership of your tokens.</p>
+                  </div>
+                </div>
+                <div id="w-node-_31519273-ec66-979d-b80e-bcfcf6044130-c5ecd4f4" class="msol-cookbook_card">
+                  <div class="msol-cookbook_card_icon w-embed"><svg width="100%" height="100%" viewbox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect y="0.581055" width="36" height="36" rx="10" fill="#49A6A3" fill-opacity="0.15"></rect>
+                      <path d="M25 20.5811C25 24.4471 21.866 27.5811 18 27.5811C14.134 27.5811 11 24.4471 11 20.5811C11 15.0811 18 9.58105 18 9.58105C18 9.58105 25 15.0811 25 20.5811Z" stroke="#308D8A" stroke-width="1.5" stroke-linejoin="round"></path>
+                    </svg></div>
+                  <div class="msol-cookbook_card_text">
+                    <h4 class="bento-card-heading hero_30">Stack rewards through liquidity</h4>
+                    <p class="text-size-regular text-color-secondary">Provide liquidity with mSOL by pairing it with other tokens on platforms like Orca, Meteora, or Raydium. You’ll earn trading fees in addition to the staking yield, making it a powerful strategy to maximize your returns—just be mindful of risks like impermanent loss and smart contract vulnerabilities.</p>
+                  </div>
+                </div>
+              </div>
+              <a href="../cookbook.html" class="button is-stroked hero_30 cookbook w-button">View all strategies</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_home_bento">
+        <div class="padding-section-medium is-features">
+          <div class="padding-global">
+            <div class="container-large hero_2-0 centered gap-2rem">
+              <div class="max-width-medium gap-med align-center">
+                <div class="w-layout-vflex header-heading align-center">
+                  <p class="text-heading-label hero_30 align-center">Why Marinade</p>
+                  <h2 class="heading-2 hero_30">Other features</h2>
+                </div>
+                <p class="text-size-medium text-align-center">How to easily and securely earn staking rewards with Solana.</p>
+              </div>
+              <div class="margin-top margin-huge">
+                <a href="https://app.marinade.finance/" class="button is-huge is-brand w-button">Optimize your staking</a>
+              </div>
+              <div class="bento-home single-row">
+                <a id="w-node-_31519273-ec66-979d-b80e-bcfcf6044149-c5ecd4f4" data-w-id="31519273-ec66-979d-b80e-bcfcf6044149" href="../how-it-works/sam.html" class="bento-card small with-link w-inline-block"><img src="../images/marinade-finance-solana-staking-web3-illustration-apy.svg" loading="lazy" alt="" height="Auto" class="bento-pic">
+                  <div class="bento-card-text">
+                    <div class="bento-title-container">
+                      <h4 class="bento-card-heading hero_30">Stake Auction Marketplace</h4>
+                      <div style="-webkit-transform:translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform-style:preserve-3d" class="bento-title-arrow-container">
+                        <div style="opacity:0" class="bento-title-arrow green w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.3334 3.33325H12.6667V10.6666H10.6667V6.74745L4.3334 13.0808L2.91919 11.6666L9.25252 5.33325H5.3334V3.33325Z" fill="#308D8A"></path>
+                          </svg></div>
+                        <div style="-webkit-transform:translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform-style:preserve-3d;opacity:1" class="bento-title-arrow black w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.3334 3.33325H12.6667V10.6666H10.6667V6.74745L4.3334 13.0808L2.91919 11.6666L9.25252 5.33325H5.3334V3.33325Z" fill="#151A1A"></path>
+                          </svg></div>
+                      </div>
+                    </div>
+                    <p class="text-size-small bento-card-paragraph">Earn extra rewards from validators bidding for your stake every epoch and enjoy leading staking APY. </p>
+                  </div>
+                </a>
+                <a id="w-node-_31519273-ec66-979d-b80e-bcfcf6044154-c5ecd4f4" href="../how-it-works/psr.html" class="bento-card small with-link w-inline-block"><img src="../images/marinade-finance-solana-staking-web3-psr.svg" loading="lazy" width="Auto" height="Auto" alt="" class="bento-pic">
+                  <div class="bento-card-text">
+                    <div class="bento-title-container">
+                      <h4 class="bento-card-heading hero_30">Protected Staking Rewards</h4>
+                      <div class="bento-title-arrow-container">
+                        <div class="bento-title-arrow green w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.3334 3.33325H12.6667V10.6666H10.6667V6.74745L4.3334 13.0808L2.91919 11.6666L9.25252 5.33325H5.3334V3.33325Z" fill="#308D8A"></path>
+                          </svg></div>
+                        <div class="bento-title-arrow black w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.3334 3.33325H12.6667V10.6666H10.6667V6.74745L4.3334 13.0808L2.91919 11.6666L9.25252 5.33325H5.3334V3.33325Z" fill="#151A1A"></path>
+                          </svg></div>
+                      </div>
+                    </div>
+                    <p class="text-size-small bento-card-paragraph">Cover validator downtime and commission changes with our on-chain security protocol. </p>
+                  </div>
+                </a>
+                <a id="w-node-_31519273-ec66-979d-b80e-bcfcf604415f-c5ecd4f4" href="../features/instant-unstake.html" class="bento-card small with-link w-inline-block"><img src="../images/illustration-instant-new.webp" loading="lazy" width="Auto" height="Auto" alt="" srcset="../images/illustration-instant-new-p-500.webp 500w, ../images/illustration-instant-new.webp 784w" sizes="(max-width: 784px) 100vw, 784px" class="bento-pic short"><img src="../images/marinade-finance-solana-staking-web3-illustration-unstake.svg" loading="lazy" width="Auto" height="Auto" alt="" class="bento-pic wide">
+                  <div class="bento-card-text">
+                    <div class="bento-title-container">
+                      <h4 class="bento-card-heading hero_30">Instant Unstake</h4>
+                      <div class="bento-title-arrow-container">
+                        <div class="bento-title-arrow green w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.3334 3.33325H12.6667V10.6666H10.6667V6.74745L4.3334 13.0808L2.91919 11.6666L9.25252 5.33325H5.3334V3.33325Z" fill="#308D8A"></path>
+                          </svg></div>
+                        <div class="bento-title-arrow black w-embed"><svg width="16" height="16" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.3334 3.33325H12.6667V10.6666H10.6667V6.74745L4.3334 13.0808L2.91919 11.6666L9.25252 5.33325H5.3334V3.33325Z" fill="#151A1A"></path>
+                          </svg></div>
+                      </div>
+                    </div>
+                    <p class="text-size-small bento-card-paragraph">Your liquidity is our priority - enjoy instant access to your funds via Marinade&#x27;s instant unstake.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="hero-banners margin-top margin-xxlarge">
+                <a href="https://marinade.finance/blog/staking-on-solana-ultimate-guide" class="hero-banner is-single is-why-liquid w-inline-block">
+                  <div class="hero-banner-bg why-liquid"></div>
+                  <div class="w-layout-hflex hero-banner-title-arrow-wrapper">
+                    <p class="hero-banner-title">What is Solana Liquid Staking?</p><img src="../images/arrow-top-right.svg" loading="lazy" alt="" class="code-embed-6">
+                  </div>
+                  <p class="hero-banner-caption">Liquid Staking maximizes the liquidity and flexibility of staked SOL while contributing to the security and decentralization of the Solana network.</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_testimonials">
+        <div class="padding-section-medium">
+          <div class="padding-global">
+            <div data-w-id="31519273-ec66-979d-b80e-bcfcf6044177" style="opacity:0" class="container-large">
+              <div id="testimonials-slider" class="testimonials-wrapper splide">
+                <div class="margin-bottom margin-large">
+                  <div class="btn_heading-wrapper">
+                    <h2 class="heading-style-h2">Hear from Our Satisfied Stakers</h2>
+                    <div class="splide__arrows">
+                      <a aria-label="Previous slide" href="#" class="button__arrow splide__arrow--prev w-button"></a>
+                      <a aria-label="Next slide" href="#" class="button__arrow splide__arrow--next w-button"></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials_list-wrapper splide__track">
+                  <div class="testimonials-list splide__list">
+                    <div class="testimonials-item splide__slide">
+                      <div class="text-size-huge">As the largest liquid staking protocol on Solana, Marinade is key in pioneering new ideas around staking, increasing decentralization, and incentivizing good validator performance, all while unlocking massive utility for staked SOL.</div>
+                      <div class="testimonial_author-wrapper">
+                        <h5 class="heading-style-h5">Staking Facilities</h5>
+                        <a href="https://solana.org/" target="_blank" class="logo_testimonial-wrapper w-inline-block">
+                          <div class="logo-testimonial_logo w-embed"><svg width="85" height="24" viewbox="0 0 85 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g opacity="0.8">
+                                <path d="M35.2616 3.09186C35.9009 3.08831 36.6199 3.22858 37.419 3.51268L37.0834 4.79108C36.3412 4.5283 35.7375 4.39691 35.2723 4.39691C34.8959 4.39691 34.5994 4.47148 34.3828 4.62063C34.1661 4.76977 34.0578 4.97219 34.0578 5.22787C34.0578 5.50484 34.1572 5.72504 34.3561 5.8884C34.5585 6.05171 34.926 6.20264 35.4587 6.34113C36.2435 6.54355 36.8011 6.82413 37.1313 7.18277C37.4616 7.53791 37.6267 8.02795 37.6267 8.65293C37.6267 9.40931 37.371 9.98995 36.8597 10.3948C36.3518 10.7961 35.6256 10.9967 34.681 10.9967C33.9104 10.9967 33.0848 10.8227 32.2041 10.4747L32.5983 9.23357C33.0848 9.40757 33.4825 9.53008 33.7915 9.60109C34.1004 9.66857 34.3934 9.70233 34.6704 9.70233C35.0717 9.70233 35.3806 9.61708 35.5972 9.44662C35.8174 9.27262 35.9275 9.03289 35.9275 8.72749C35.9275 8.53222 35.8813 8.36886 35.789 8.23746C35.6966 8.10606 35.5404 7.98889 35.3202 7.88591C35.1001 7.77938 34.7822 7.6746 34.3668 7.57162C33.6743 7.40471 33.1682 7.14551 32.8487 6.79391C32.529 6.44237 32.3693 5.97895 32.3693 5.40365C32.3693 4.66857 32.6214 4.10039 33.1256 3.69911C33.6335 3.29428 34.3454 3.09186 35.2616 3.09186ZM43.5182 4.4555H41.4248V10.9221H39.7576V4.4555H37.5843V3.18774H43.5182V4.4555ZM44.994 8.93526L44.3654 10.9221H42.7248L45.2336 3.18774H47.4389L50.0117 10.9221H48.3977L47.7425 8.93526H44.994ZM46.315 4.6153L45.3668 7.70477H47.3644L46.3896 4.6153H46.315ZM50.7417 3.18774H52.4089V10.9221H50.7417V3.18774ZM57.2885 10.9221H55.3865L52.5634 6.78862L55.147 3.18774H57.0272L54.3745 6.76729L57.2885 10.9221ZM57.9703 3.18774H59.6377V10.9221H57.9703V3.18774ZM63.8988 7.49706C63.6436 7.13482 63.2437 6.49031 62.7005 5.56348V10.9221H61.1825V3.18774H62.5036L64.8577 6.54889C65.1561 6.97146 65.5717 7.62491 66.1041 8.50915V3.18774H67.6276V10.9221H66.2961L63.8988 7.49706ZM75.1227 10.4427C74.7141 10.6238 74.2794 10.7641 73.8174 10.8635C73.3559 10.9594 72.9032 11.0073 72.4592 11.0073C71.2592 11.0073 70.3303 10.6647 69.6736 9.97931C69.0163 9.29035 68.6879 8.31737 68.6879 7.06026C68.6879 5.79606 69.0272 4.81949 69.7052 4.13057C70.387 3.4381 71.3497 3.09186 72.5923 3.09186C73.0292 3.09186 73.4661 3.14513 73.903 3.25166C74.3394 3.35465 74.7321 3.50024 75.0801 3.68845L74.5897 4.86566C74.2205 4.71296 73.8976 4.60288 73.6205 4.5354C73.3434 4.46438 73.0663 4.42886 72.7897 4.42886C72.0048 4.42886 71.4097 4.64904 71.005 5.08938C70.6003 5.52971 70.3979 6.17602 70.3979 7.02829C70.3979 7.87348 70.5845 8.52868 70.957 8.99384C71.3334 9.45906 71.8646 9.69164 72.5497 9.69164C72.8977 9.69164 73.2386 9.64369 73.5725 9.54786V6.99633H75.1227V10.4427ZM34.4626 16.202H37.3231V17.4591H34.4626V20.7403H32.7954V13.0059H37.7705V14.2577H34.4626V16.202ZM39.6404 18.7534L39.0119 20.7403H37.3712L39.8801 13.0059H42.0853L44.6581 20.7403H43.0442L42.389 18.7534H39.6404ZM40.9614 14.4335L40.0133 17.5229H42.0108L41.036 14.4335H40.9614ZM48.3711 12.91C48.7795 12.91 49.1861 12.9633 49.5909 13.0699C49.9993 13.1728 50.3651 13.3184 50.6882 13.5067L50.1928 14.6625C49.8874 14.5169 49.6051 14.4122 49.3459 14.3482C49.0902 14.2808 48.831 14.2471 48.5682 14.2471C47.8331 14.2471 47.2738 14.469 46.8902 14.9129C46.5103 15.3568 46.3203 16.0013 46.3203 16.8465C46.3203 17.7058 46.5103 18.3575 46.8902 18.8014C47.2738 19.2417 47.8331 19.4619 48.5682 19.4619C49.1364 19.4619 49.7294 19.3323 50.3473 19.073L50.7521 20.2929C49.9531 20.648 49.1524 20.8255 48.3498 20.8255C47.1424 20.8255 46.2173 20.4864 45.5746 19.8081C44.9318 19.1263 44.6104 18.1497 44.6104 16.8784C44.6104 16.0581 44.7596 15.3497 45.0579 14.7531C45.3562 14.1565 45.7859 13.7002 46.3469 13.3841C46.9116 13.0681 47.5863 12.91 48.3711 12.91ZM51.5833 13.0059H53.2506V20.7403H51.5833V13.0059ZM59.6377 20.7403H54.7957V13.0059H56.3885V19.4726H59.6377V20.7403ZM60.3834 13.0059H62.0508V20.7403H60.3834V13.0059ZM68.7201 14.2737H66.6266V20.7403H64.9592V14.2737H62.7861V13.0059H68.7201V14.2737ZM69.4608 13.0059H71.1277V20.7403H69.4608V13.0059ZM74.3399 16.1487H77.3868V17.3578H74.3399V19.5098H77.8237V20.7403H72.673V13.0059H77.7119V14.2364H74.3399V16.1487ZM81.3234 12.91C81.9626 12.9065 82.6821 13.0468 83.4807 13.3309L83.1452 14.6092C82.4034 14.3465 81.7996 14.2151 81.3343 14.2151C80.9579 14.2151 80.6612 14.2897 80.4446 14.4388C80.2281 14.588 80.1196 14.7904 80.1196 15.046C80.1196 15.323 80.2194 15.5432 80.4179 15.7066C80.6203 15.8699 80.9879 16.0208 81.5208 16.1593C82.3052 16.3617 82.8632 16.6423 83.1932 17.0009C83.5237 17.3561 83.6885 17.8461 83.6885 18.4711C83.6885 19.2275 83.4332 19.8081 82.9216 20.213C82.4137 20.6143 81.6877 20.8149 80.743 20.8149C79.9723 20.8149 79.1465 20.6409 78.2661 20.2929L78.6605 19.0517C79.1465 19.2257 79.5446 19.3483 79.8534 19.4193C80.1621 19.4867 80.4556 19.5205 80.7321 19.5205C81.1336 19.5205 81.4423 19.4353 81.6594 19.2648C81.8792 19.0908 81.9894 18.8511 81.9894 18.5457C81.9894 18.3504 81.943 18.187 81.8508 18.0556C81.7586 17.9242 81.6021 17.8071 81.3823 17.7041C81.1619 17.5976 80.8439 17.4928 80.4288 17.3898C79.7361 17.2229 79.2299 16.9637 78.9108 16.6121C78.5912 16.2605 78.4314 15.7971 78.4314 15.2218C78.4314 14.4867 78.6834 13.9186 79.1874 13.5173C79.6952 13.1125 80.4076 12.91 81.3234 12.91Z" fill="white"></path>
+                                <path d="M26.4567 6.00305V4.5685L16.947 0L0 3.50624V5.09991L16.7876 2.44373L26.4567 6.00305Z" fill="white"></path>
+                                <path d="M26.4567 6.63997V8.12742L15.5125 6.00233L0 7.75559V6.00233L15.9375 3.55859L26.4567 6.63997Z" fill="white"></path>
+                                <path d="M26.4567 8.8186V10.3591L14.5037 9.58895L0 10.3591V8.49978L14.6626 7.17188L26.4567 8.8186Z" fill="white"></path>
+                                <path d="M26.4567 11.1569V12.7506L13.2071 13.1757L0 12.7506V11.1569L13.4938 10.7852L26.4567 11.1569Z" fill="white"></path>
+                                <path d="M26.4567 13.5996V15.2121L11.9405 16.9092L0 15.0421V13.5998L12.0677 14.4907L26.4567 13.5996Z" fill="white"></path>
+                                <path d="M26.4567 16.1882V17.8429L10.7099 20.4312L0 17.3339V15.8066L10.8371 18.1192L26.4567 16.1882Z" fill="white"></path>
+                                <path d="M0 17.8848V19.3271L9.56438 23.9944L26.4567 20.4301V18.7753L9.69153 21.5758L0 17.8848Z" fill="white"></path>
+                              </g>
+                            </svg></div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="testimonials-item splide__slide">
+                      <div class="text-size-huge">As the largest liquid staking protocol on Solana, Marinade is key in pioneering new ideas around staking, increasing decentralization, and incentivizing good validator performance, all while unlocking massive utility for staked SOL.</div>
+                      <div class="testimonial_author-wrapper">
+                        <h5 class="heading-style-h5">Staking Facilities</h5>
+                        <a href="https://solana.org/" target="_blank" class="logo_testimonial-wrapper w-inline-block">
+                          <div class="logo-testimonial_logo w-embed"><svg width="85" height="24" viewbox="0 0 85 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <g opacity="0.8">
+                                <path d="M35.2616 3.09186C35.9009 3.08831 36.6199 3.22858 37.419 3.51268L37.0834 4.79108C36.3412 4.5283 35.7375 4.39691 35.2723 4.39691C34.8959 4.39691 34.5994 4.47148 34.3828 4.62063C34.1661 4.76977 34.0578 4.97219 34.0578 5.22787C34.0578 5.50484 34.1572 5.72504 34.3561 5.8884C34.5585 6.05171 34.926 6.20264 35.4587 6.34113C36.2435 6.54355 36.8011 6.82413 37.1313 7.18277C37.4616 7.53791 37.6267 8.02795 37.6267 8.65293C37.6267 9.40931 37.371 9.98995 36.8597 10.3948C36.3518 10.7961 35.6256 10.9967 34.681 10.9967C33.9104 10.9967 33.0848 10.8227 32.2041 10.4747L32.5983 9.23357C33.0848 9.40757 33.4825 9.53008 33.7915 9.60109C34.1004 9.66857 34.3934 9.70233 34.6704 9.70233C35.0717 9.70233 35.3806 9.61708 35.5972 9.44662C35.8174 9.27262 35.9275 9.03289 35.9275 8.72749C35.9275 8.53222 35.8813 8.36886 35.789 8.23746C35.6966 8.10606 35.5404 7.98889 35.3202 7.88591C35.1001 7.77938 34.7822 7.6746 34.3668 7.57162C33.6743 7.40471 33.1682 7.14551 32.8487 6.79391C32.529 6.44237 32.3693 5.97895 32.3693 5.40365C32.3693 4.66857 32.6214 4.10039 33.1256 3.69911C33.6335 3.29428 34.3454 3.09186 35.2616 3.09186ZM43.5182 4.4555H41.4248V10.9221H39.7576V4.4555H37.5843V3.18774H43.5182V4.4555ZM44.994 8.93526L44.3654 10.9221H42.7248L45.2336 3.18774H47.4389L50.0117 10.9221H48.3977L47.7425 8.93526H44.994ZM46.315 4.6153L45.3668 7.70477H47.3644L46.3896 4.6153H46.315ZM50.7417 3.18774H52.4089V10.9221H50.7417V3.18774ZM57.2885 10.9221H55.3865L52.5634 6.78862L55.147 3.18774H57.0272L54.3745 6.76729L57.2885 10.9221ZM57.9703 3.18774H59.6377V10.9221H57.9703V3.18774ZM63.8988 7.49706C63.6436 7.13482 63.2437 6.49031 62.7005 5.56348V10.9221H61.1825V3.18774H62.5036L64.8577 6.54889C65.1561 6.97146 65.5717 7.62491 66.1041 8.50915V3.18774H67.6276V10.9221H66.2961L63.8988 7.49706ZM75.1227 10.4427C74.7141 10.6238 74.2794 10.7641 73.8174 10.8635C73.3559 10.9594 72.9032 11.0073 72.4592 11.0073C71.2592 11.0073 70.3303 10.6647 69.6736 9.97931C69.0163 9.29035 68.6879 8.31737 68.6879 7.06026C68.6879 5.79606 69.0272 4.81949 69.7052 4.13057C70.387 3.4381 71.3497 3.09186 72.5923 3.09186C73.0292 3.09186 73.4661 3.14513 73.903 3.25166C74.3394 3.35465 74.7321 3.50024 75.0801 3.68845L74.5897 4.86566C74.2205 4.71296 73.8976 4.60288 73.6205 4.5354C73.3434 4.46438 73.0663 4.42886 72.7897 4.42886C72.0048 4.42886 71.4097 4.64904 71.005 5.08938C70.6003 5.52971 70.3979 6.17602 70.3979 7.02829C70.3979 7.87348 70.5845 8.52868 70.957 8.99384C71.3334 9.45906 71.8646 9.69164 72.5497 9.69164C72.8977 9.69164 73.2386 9.64369 73.5725 9.54786V6.99633H75.1227V10.4427ZM34.4626 16.202H37.3231V17.4591H34.4626V20.7403H32.7954V13.0059H37.7705V14.2577H34.4626V16.202ZM39.6404 18.7534L39.0119 20.7403H37.3712L39.8801 13.0059H42.0853L44.6581 20.7403H43.0442L42.389 18.7534H39.6404ZM40.9614 14.4335L40.0133 17.5229H42.0108L41.036 14.4335H40.9614ZM48.3711 12.91C48.7795 12.91 49.1861 12.9633 49.5909 13.0699C49.9993 13.1728 50.3651 13.3184 50.6882 13.5067L50.1928 14.6625C49.8874 14.5169 49.6051 14.4122 49.3459 14.3482C49.0902 14.2808 48.831 14.2471 48.5682 14.2471C47.8331 14.2471 47.2738 14.469 46.8902 14.9129C46.5103 15.3568 46.3203 16.0013 46.3203 16.8465C46.3203 17.7058 46.5103 18.3575 46.8902 18.8014C47.2738 19.2417 47.8331 19.4619 48.5682 19.4619C49.1364 19.4619 49.7294 19.3323 50.3473 19.073L50.7521 20.2929C49.9531 20.648 49.1524 20.8255 48.3498 20.8255C47.1424 20.8255 46.2173 20.4864 45.5746 19.8081C44.9318 19.1263 44.6104 18.1497 44.6104 16.8784C44.6104 16.0581 44.7596 15.3497 45.0579 14.7531C45.3562 14.1565 45.7859 13.7002 46.3469 13.3841C46.9116 13.0681 47.5863 12.91 48.3711 12.91ZM51.5833 13.0059H53.2506V20.7403H51.5833V13.0059ZM59.6377 20.7403H54.7957V13.0059H56.3885V19.4726H59.6377V20.7403ZM60.3834 13.0059H62.0508V20.7403H60.3834V13.0059ZM68.7201 14.2737H66.6266V20.7403H64.9592V14.2737H62.7861V13.0059H68.7201V14.2737ZM69.4608 13.0059H71.1277V20.7403H69.4608V13.0059ZM74.3399 16.1487H77.3868V17.3578H74.3399V19.5098H77.8237V20.7403H72.673V13.0059H77.7119V14.2364H74.3399V16.1487ZM81.3234 12.91C81.9626 12.9065 82.6821 13.0468 83.4807 13.3309L83.1452 14.6092C82.4034 14.3465 81.7996 14.2151 81.3343 14.2151C80.9579 14.2151 80.6612 14.2897 80.4446 14.4388C80.2281 14.588 80.1196 14.7904 80.1196 15.046C80.1196 15.323 80.2194 15.5432 80.4179 15.7066C80.6203 15.8699 80.9879 16.0208 81.5208 16.1593C82.3052 16.3617 82.8632 16.6423 83.1932 17.0009C83.5237 17.3561 83.6885 17.8461 83.6885 18.4711C83.6885 19.2275 83.4332 19.8081 82.9216 20.213C82.4137 20.6143 81.6877 20.8149 80.743 20.8149C79.9723 20.8149 79.1465 20.6409 78.2661 20.2929L78.6605 19.0517C79.1465 19.2257 79.5446 19.3483 79.8534 19.4193C80.1621 19.4867 80.4556 19.5205 80.7321 19.5205C81.1336 19.5205 81.4423 19.4353 81.6594 19.2648C81.8792 19.0908 81.9894 18.8511 81.9894 18.5457C81.9894 18.3504 81.943 18.187 81.8508 18.0556C81.7586 17.9242 81.6021 17.8071 81.3823 17.7041C81.1619 17.5976 80.8439 17.4928 80.4288 17.3898C79.7361 17.2229 79.2299 16.9637 78.9108 16.6121C78.5912 16.2605 78.4314 15.7971 78.4314 15.2218C78.4314 14.4867 78.6834 13.9186 79.1874 13.5173C79.6952 13.1125 80.4076 12.91 81.3234 12.91Z" fill="white"></path>
+                                <path d="M26.4567 6.00305V4.5685L16.947 0L0 3.50624V5.09991L16.7876 2.44373L26.4567 6.00305Z" fill="white"></path>
+                                <path d="M26.4567 6.63997V8.12742L15.5125 6.00233L0 7.75559V6.00233L15.9375 3.55859L26.4567 6.63997Z" fill="white"></path>
+                                <path d="M26.4567 8.8186V10.3591L14.5037 9.58895L0 10.3591V8.49978L14.6626 7.17188L26.4567 8.8186Z" fill="white"></path>
+                                <path d="M26.4567 11.1569V12.7506L13.2071 13.1757L0 12.7506V11.1569L13.4938 10.7852L26.4567 11.1569Z" fill="white"></path>
+                                <path d="M26.4567 13.5996V15.2121L11.9405 16.9092L0 15.0421V13.5998L12.0677 14.4907L26.4567 13.5996Z" fill="white"></path>
+                                <path d="M26.4567 16.1882V17.8429L10.7099 20.4312L0 17.3339V15.8066L10.8371 18.1192L26.4567 16.1882Z" fill="white"></path>
+                                <path d="M0 17.8848V19.3271L9.56438 23.9944L26.4567 20.4301V18.7753L9.69153 21.5758L0 17.8848Z" fill="white"></path>
+                              </g>
+                            </svg></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="31519273-ec66-979d-b80e-bcfcf6044192" style="opacity:0" class="section_cookbook">
+        <div class="padding-section-medium">
+          <div class="padding-global">
+            <div class="container-large">
+              <div class="margin-bottom margin-large">
+                <div class="_2cols_heading-wrapper">
+                  <div id="w-node-_31519273-ec66-979d-b80e-bcfcf6044198-c5ecd4f4" class="heading-wrapper">
+                    <h2 class="heading-style-h2">Participate in DeFi with mSOL</h2>
+                  </div>
+                  <div id="w-node-_31519273-ec66-979d-b80e-bcfcf604419b-c5ecd4f4" class="partners_description">
+                    <div class="text-size-regular">With many integrations around the Solana ecosystem, mSOL is your gateway to accessing additional streams of income. While mSOL accrues Solana staking rewards in its token value, it can simultaneously be used in many Solana DeFi projects to earn extra yield.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="cookbook_list-wrapper w-dyn-list">
+                <div fs-cmsnest-element="list" role="list" class="cookbook-list w-dyn-items">
+                  <div role="listitem" class="cookbook-item w-dyn-item">
+                    <div class="cookbook_item-container">
+                      <a href="#" class="cmsnest-link w-inline-block"></a>
+                      <div class="cookbook-heading">
+                        <div class="tokens_row">
+                          <div class="token-item token-1"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="token-image w-dyn-bind-empty"></div>
+                        </div>
+                        <h4 class="heading-style-h4 w-dyn-bind-empty"></h4>
+                      </div>
+                      <div class="cookbook_info-grid">
+                        <div id="w-node-_31519273-ec66-979d-b80e-bcfcf60441ad-c5ecd4f4" class="cookbook_info-item is-risks">
+                          <div class="cookbook_info-heading">Risks</div>
+                          <div class="tags_list-wrapper w-dyn-list">
+                            <div role="list" class="tags_list-list w-dyn-items">
+                              <div role="listitem" class="tags_list-item w-dyn-item">
+                                <a data-tippy-content="" data-tippy-interactive="false" data-tippy-arrow="false" data-tippy-followcursor="false" data-tippy-placement="top" href="#" class="tags_item-container link w-inline-block">
+                                  <div class="risks_item-label w-dyn-bind-empty"></div>
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="cookbook_info-item is-tokens">
+                          <div class="cookbook_info-heading">Tokens Required</div>
+                          <div fs-cmsnest-collection="tokens" fs-cmsnest-element="nest-target" class="cmsnest_style-block"></div>
+                        </div>
+                        <div class="cookbook_info-item is-protocols">
+                          <div class="cookbook_info-heading">Protocols</div>
+                          <div fs-cmsnest-collection="protocols" fs-cmsnest-element="nest-target" class="cmsnest_style-block"></div>
+                        </div>
+                      </div>
+                      <div class="item_category">
+                        <div fs-cmsfilter-field="category" class="w-dyn-bind-empty"></div>
+                        <div fs-cmsfilter-field="category" class="hide">All</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-dyn-empty">
+                  <div>No items found.</div>
+                </div>
+              </div>
+              <div class="hide">
+                <div class="tags_list-wrapper w-dyn-list">
+                  <div fs-cmsnest-collection="tokens" fs-cmsnest-element="nest-source" role="list" class="tags_list-list w-dyn-items">
+                    <div role="listitem" class="tags_list-item w-dyn-item">
+                      <div class="tag_item-wrapper">
+                        <a href="#" class="cmsnest-link w-inline-block"></a>
+                        <a data-hover="false" href="#" class="tag_item-container w-inline-block">
+                          <div class="tag_img-wrapper"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="tag-image"></div>
+                          <div class="tag_item-label"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-dyn-empty">
+                    <div>No items found.</div>
+                  </div>
+                </div>
+                <div class="tags_list-wrapper w-dyn-list">
+                  <div fs-cmsnest-collection="protocols" fs-cmsnest-element="nest-source" role="list" class="tags_list-list w-dyn-items">
+                    <div role="listitem" class="tags_list-item w-dyn-item">
+                      <div class="tag_item-wrapper">
+                        <a href="#" class="cmsnest-link w-inline-block"></a>
+                        <a data-hover="true" href="#" class="tag_item-container w-inline-block">
+                          <div class="tag_img-wrapper"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="tag-image"></div>
+                          <div class="tag_item-label"></div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-dyn-empty">
+                    <div>No items found.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="margin-top margin-xlarge">
+                <a href="../cookbook.html" class="button is-huge is-brand w-button">View All Strategies</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="c515a0a1-ea75-656e-4fdd-d2dd94cfd219" class="section_newsroom">
+        <div class="padding-section-medium">
+          <div class="padding-global">
+            <div class="container-large">
+              <div class="margin-bottom margin-large">
+                <div class="news_heading-wrapper">
+                  <h2 class="heading-style-h2">Newsroom</h2>
+                  <a href="../blog.html" class="button is-secondary hide-mobile-portrait w-button">View All</a>
+                </div>
+              </div>
+              <div class="w-layout-grid newsroom-grid">
+                <div class="last_news_collection_list-wrapper w-dyn-list">
+                  <div role="list" class="last_news_collection-grid w-dyn-items">
+                    <div role="listitem" class="last_news_collection-item w-dyn-item">
+                      <a href="#" class="last_news_collection-container w-inline-block">
+                        <div class="news_thumbnail-wrapper"><img src="https://d3e54v103j8qbb.cloudfront.net/plugins/Basic/assets/placeholder.60f9b1840c.svg" loading="lazy" alt="" class="news_thumbnail-image w-dyn-bind-empty"></div>
+                        <div class="news_meta">
+                          <div class="meta_tag is-white">
+                            <div class="w-dyn-bind-empty"></div>
+                          </div>
+                          <div class="text-style-allcaps text-color-secondary is-oncolor w-dyn-bind-empty"></div>
+                        </div>
+                        <div class="slider_info-wrapper">
+                          <h3 class="slide-heading w-dyn-bind-empty"></h3>
+                          <div class="slide-description text-style-3lines w-dyn-bind-empty"></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-dyn-empty">
+                    <div>No items found.</div>
+                  </div>
+                </div>
+                <div class="news_collection_list-wrapper w-dyn-list">
+                  <div role="list" class="news_collection-grid w-dyn-items">
+                    <div role="listitem" class="news_collection-item w-dyn-item">
+                      <a href="#" class="news_collection-container w-inline-block">
+                        <div class="news_meta">
+                          <div class="meta_tag">
+                            <div class="w-dyn-bind-empty"></div>
+                          </div>
+                          <div class="text-style-allcaps text-color-secondary w-dyn-bind-empty"></div>
+                        </div>
+                        <div class="news_info">
+                          <h5 class="news-heading text-style-3lines w-dyn-bind-empty"></h5>
+                          <div class="text-size-small text-style-4lines w-dyn-bind-empty"></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="w-dyn-empty">
+                    <div>No items found.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="margin-top margin-xlarge show-mobile-portrait">
+                <a href="../blog.html" class="button is-huge is-secondary w-button">View All</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <a data-text="Optimize your staking" data-category="optimize_your_staking" data-subcategory="optimize_your_staking" data-position="Footer" data-w-id="e5a95aa3-fc49-1edb-b20e-856fba205dbe" href="https://app.marinade.finance/" class="section_cta is-link ga-button w-inline-block">
+        <div class="padding-section-small">
+          <div class="padding-global">
+            <div class="container-large">
+              <div class="cta_heading-wrapper">
+                <h2 class="cta_heading">Optimize your staking</h2>
+                <div class="cta_button-wrapper">
+                  <div class="cta_button-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M4 24H44M44 24L26 6M44 24L26 42" stroke="#151A1A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <section data-w-id="06eed885-e3f4-9890-a863-4367c47818be" class="section_subscription">
+        <div class="padding-section-medium">
+          <div class="padding-global">
+            <div class="container-large">
+              <div class="_2cols_heading-wrapper is-subscription">
+                <div id="w-node-_06eed885-e3f4-9890-a863-4367c47818c3-c47818be" class="subscription_heading-wrapper">
+                  <h2 class="heading-style-h2">Stay in the Loop</h2>
+                  <div class="text-size-medium">Keep up-to-date with all things Marinade by signing up for our newsletter.</div>
+                </div>
+                <div id="w-node-_06eed885-e3f4-9890-a863-4367c47818c8-c47818be" class="email_form-wrapper">
+                  <div class="form_subscription w-form">
+                    <form id="email-form" name="email-form" data-name="Email Form" method="get" class="form_subscription-wrapper" data-wf-flow="522f0db4a3c22ca253355a72" data-wf-page-id="68d3f2f01b2229f5c5ecd4f4" data-wf-element-id="06eed885-e3f4-9890-a863-4367c47818ca">
+                      <div class="field-container">
+                        <div class="field-wrapper"><input type="submit" data-wait=" " id="newsletter-btn" aria-label="Submit" class="field_button ga-button w-button" value=" "><input class="input_subscription w-input" maxlength="256" name="customerEmail" data-name="customerEmail" placeholder="Get our newsletter" type="email" id="customerEmail" required=""></div>
+                        <div class="text-size-tiny text-align-center is-caption">By subscribing, you agree with our <a href="../privacy-policy.html" class="form_link">Privacy Policy</a> and provide consent to receive updates from our company.</div>
+                      </div>
+                    </form>
+                    <div class="form_subscription_success w-form-done">
+                      <div class="form_subscription_success-wrapper">
+                        <div class="code-embed-3 w-embed"><svg width="100%" height="100%" viewbox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="20" cy="20" r="15" fill="#08B886"></circle>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.1652 13.3319C29.6302 13.7969 29.6413 14.5472 29.1903 15.0257L18.6783 26.1785C18.0274 26.8294 16.9722 26.8294 16.3213 26.1785L12.4488 21.7315C12.0084 21.2258 12.0346 20.4654 12.5088 19.9912V19.9912C12.9757 19.5243 13.7216 19.4907 14.2286 19.9137L17.4998 22.643L27.4744 13.3041C27.9533 12.8558 28.7014 12.8681 29.1652 13.3319V13.3319Z" fill="white"></path>
+                          </svg></div>
+                        <div class="text-size-regular">Thank you! Your submission has been received!</div>
+                      </div>
+                    </div>
+                    <div class="form_subscription_error w-form-fail">
+                      <div class="text-size-small">Oops! Something went wrong while submitting the form.</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section data-w-id="48227bf5-72b8-226a-8260-2abb46bcbe9b" class="footer_component">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="footer-top">
+              <div id="w-node-_48227bf5-72b8-226a-8260-2abb46bcbe9f-46bcbe9b" class="marinade_description-wrapper">
+                <div class="marinade-text">Automate your SOL staking across hundreds of validators.</div>
+              </div>
+              <div id="w-node-_48227bf5-72b8-226a-8260-2abb46bcbea2-46bcbe9b" class="w-layout-grid footer_top-wrapper">
+                <div class="footer_link-list">
+                  <div class="footer_column-heading text-color-secondary">Product</div>
+                  <a href="../native-staking.html" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Native Staking</div>
+                  </a>
+                  <a href="../liquid-staking.html" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Liquid Staking</div>
+                  </a>
+                  <a href="https://app.marinade.finance/network/" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Network</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="../roadmap.html" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Roadmap</div>
+                  </a>
+                </div>
+                <div class="footer_link-list">
+                  <div class="footer_column-heading text-color-secondary">Institutions</div>
+                  <div class="nav_menu_collection_list-wrapper w-dyn-list">
+                    <div role="list" class="nav_menu_collection_list-list w-dyn-items">
+                      <div role="listitem" class="footer_list-link w-dyn-item"></div>
+                    </div>
+                    <div class="footer_empty w-dyn-empty">
+                      <div class="nav_menu_empty-container">
+                        <div class="dropdown_link_name">List is Empty</div>
+                        <div class="text-size-tiny text-color-secondary">There are no items here yet</div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="../institutions.html" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Institutional-grade Staking</div>
+                  </a>
+                  <a href="https://marinade.finance/institutions#rewards" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Staking Rewards Calculator</div>
+                  </a>
+                </div>
+                <div class="footer_link-list">
+                  <div class="footer_column-heading text-color-secondary">Governance</div>
+                  <a href="../mnde.html" class="footer-link w-inline-block">
+                    <div class="footer_link-text">MNDE Token</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://docs.marinade.finance/governance" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Process</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://app.realms.today/dao/MNDE" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Voting</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="../team.html" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Team</div>
+                  </a>
+                  <a href="https://forum.marinade.finance/" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Research Forum</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                </div>
+                <div class="footer_link-list">
+                  <div class="footer_column-heading text-color-secondary">Resources</div>
+                  <a href="https://marinade.finance/blog/solana-staking-101" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Staking 101</div>
+                  </a>
+                  <a href="../blog.html" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Blog</div>
+                  </a>
+                  <a href="../media.html" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Marinade in Media</div>
+                  </a>
+                  <a href="https://docs.marinade.finance/marinade-protocol/security/audits" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Audits</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://help.marinade.finance/" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Knowledge Base</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://docs.marinade.finance/" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Documentation</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://docs.marinade.finance/partnerships/marinade-press-kit" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Media Kit</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                </div>
+                <div class="footer_link-list">
+                  <div class="footer_column-heading text-color-secondary">Community</div>
+                  <a href="https://discord.gg/yTdH8YkYKg" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">Discord</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://twitter.com/MarinadeFinance" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">X (Twitter)</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                  <a href="https://www.linkedin.com/company/marinade-finance/" target="_blank" class="footer-link w-inline-block">
+                    <div class="footer_link-text">LinkedIn</div>
+                    <div class="internal_link_f-icon w-embed"><svg width="100%" height="100%" viewbox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9 2V3H12.2929L7.14645 8.14645L7.85355 8.85355L13 3.70711V7H14V2H9ZM7 3H6.98158C6.29826 3 5.75993 3 5.3245 3.0297C4.88067 3.05999 4.50734 3.1228 4.16061 3.26642C3.30301 3.62165 2.62165 4.30301 2.26642 5.16061C2.1228 5.50734 2.05999 5.88067 2.02971 6.3245C1.93399 7.72728 1.92853 9.31595 2.04253 10.7111C2.08593 11.2423 2.17609 11.6859 2.38148 12.089C2.71703 12.7475 3.25247 13.283 3.91103 13.6185C4.31413 13.8239 4.75771 13.9141 5.28889 13.9575C6.68414 14.0714 8.27263 14.066 9.6755 13.9703C10.1193 13.94 10.4927 13.8772 10.8394 13.7336C11.697 13.3783 12.3783 12.697 12.7336 11.8394C12.8772 11.4927 12.94 11.1193 12.9703 10.6755C13 10.2401 13 9.70174 13 9.01843V9H12C12 9.70575 11.9997 10.21 11.9726 10.6074C11.9458 11.0003 11.8944 11.2521 11.8097 11.4567C11.556 12.0693 11.0693 12.556 10.4567 12.8097C10.2521 12.8944 10.0003 12.9458 9.60743 12.9726C8.2326 13.0664 6.7411 13.0727 5.37032 12.9608C4.90099 12.9224 4.60366 12.8491 4.36502 12.7275C3.89462 12.4878 3.51217 12.1054 3.27248 11.635C3.15089 11.3963 3.07756 11.099 3.03921 10.6297C2.92723 9.25897 2.93357 7.76734 3.02739 6.39257C3.05419 5.99966 3.10556 5.74787 3.1903 5.54329C3.44404 4.93072 3.93072 4.44404 4.54329 4.1903C4.74787 4.10556 4.99966 4.05419 5.39257 4.02739C5.78997 4.00027 6.29425 4 7 4V3Z" fill="currentColor"></path>
+                      </svg></div>
+                  </a>
+                </div>
+                <div id="w-node-_48227bf5-72b8-226a-8260-2abb46bcbee6-46bcbe9b" class="footer_link-list hidden">
+                  <div class="footer_column-heading text-color-secondary">Compare</div>
+                  <div class="nav_menu_collection_list-wrapper w-dyn-list">
+                    <div role="list" class="nav_menu_collection_list-list w-dyn-items">
+                      <div role="listitem" class="footer_list-link w-dyn-item">
+                        <a href="#" class="footer-link w-inline-block">
+                          <div class="footer_link-text"></div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="footer_empty w-dyn-empty">
+                      <div class="nav_menu_empty-container">
+                        <div class="dropdown_link_name">List is Empty</div>
+                        <div class="text-size-tiny text-color-secondary">There are no items here yet</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="footer-bottom">
+              <div class="text_copyright-wrapper">
+                <div class="text-size-tiny text-color-secondary">©2025 Marinade Finance</div>
+              </div>
+              <div class="links_docs-wrapper">
+                <a href="../terms-of-use.html" class="links_docs-link">Terms of Use</a>
+                <a href="../privacy-policy.html" class="links_docs-link">Privacy Policy</a>
+                <a href="../referral-terms.html" class="links_docs-link">Referral Terms</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=664c7876d83b34499b5688a0" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="../js/webflow.js" type="text/javascript"></script>
+  <script src="https://cdn.prod.website-files.com/gsap/3.14.2/gsap.min.js" type="text/javascript"></script>
+  <script src="https://cdn.prod.website-files.com/gsap/3.14.2/ScrollTrigger.min.js" type="text/javascript"></script>
+  <script type="text/javascript">gsap.registerPlugin(ScrollTrigger);</script>
+  <script>
+window.xrayDataLayer = window.xrayDataLayer || [];
+function xrayData() { xrayDataLayer.push(arguments); }
+document.addEventListener('DOMContentLoaded', function() {
+  // Stake Now
+  document.querySelectorAll('.stake-now-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      xrayData('page_view', 'https://marinade.finance/events/stake-now');
+    });
+  });
+  // Book Demo
+  document.querySelectorAll('.book-demo-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      xrayData('page_view', 'https://marinade.finance/events/book-demo');
+    });
+  });
+  // Learn More
+  document.querySelectorAll('.learn-more-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      xrayData('page_view', 'https://marinade.finance/events/learn-more');
+    });
+  });
+  // Subscribe
+  document.querySelectorAll('.btn-subscribe').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      xrayData('page_view', 'https://marinade.finance/events/subscribe');
+    });
+  });
+});
+</script>
+  <!--  Swiper.js  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!--  Nav Hover Link  -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const sections = document.querySelectorAll('.nav_menu-dropdown-list, .logo-hero_component, .logo-audits_component');
+      sections.forEach(section => {
+          const elements = section.querySelectorAll('.dropdown_list-link, .logo-wrapper');
+          elements.forEach(element => {
+              element.addEventListener('mouseenter', () => {
+                  if (!element.classList.contains('is-accent')) {
+                      /* Dimming functionality commented out
+                      elements.forEach(el => {
+                          if (el !== element && !el.classList.contains('is-accent')) {
+                              el.classList.add('dimmed');
+                          }
+                      });
+                      */
+                  }
+              });
+              element.addEventListener('mouseleave', () => {
+                  if (!element.classList.contains('is-accent')) {
+                      /* Dimming functionality commented out
+                      elements.forEach(el => {
+                          if (!el.classList.contains('is-accent')) {
+                              el.classList.remove('dimmed');
+                          }
+                      });
+                      */
+                  }
+              });
+          });
+      });
+      // Add support for GA Events DataLayer push of button click
+        function trackButtonClick(buttonElement) {
+          const category = buttonElement.getAttribute('data-category');
+          const subcategory = buttonElement.getAttribute('data-subcategory');
+          const position = buttonElement.getAttribute('data-position');
+          const text = buttonElement.getAttribute('data-text') || buttonElement.innerText;
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push({
+              event: "buttonClick",
+              button: {
+                  category: category,
+                  subcategory: subcategory,
+                  position: position,
+                  text: text
+              }
+          });
+      }
+      // Attach event listeners to all buttons with the 'ga-button' class
+      const gaButtons = document.querySelectorAll('.ga-button');
+      gaButtons.forEach(function (button) {
+          button.addEventListener('click', function () {
+              trackButtonClick(button);
+          });
+      });
+        fetch('https://ipapi.co/json/')
+      .then(response => response.json())
+      .then(data => {
+        // Check if the user is from an EU country
+        const isEU = data.in_eu;
+        // Push to the GTM data layer
+        window.dataLayer.push({   
+            event: "pageView",
+               page: {
+                path: window.location.pathname,
+                internalParams: "not_available_DL"
+              },
+               wallet: { 
+                type: "not_available_DL",
+                connection: "not_available_DL",
+                solBalance: "not_available_DL",
+                stakedBalance: "not_available_DL",
+                id: "not_available_DL"  
+               },
+          user: {
+                region: isEU ? "EU" : "non_EU",
+                entrySOLBalance: "not_available_DL"
+              }
+        });
+      })
+      .catch(error => {
+        console.error('Error fetching user location:', error);
+      });
+  });
+  </script>
+  <!--  Smooth Scroll  -->
+  <!--  <script
+      data-id-scroll
+      data-autoinit="true"
+      data-duration="1"
+      data-orientation="vertical"
+      data-smoothWheel="true"
+      data-smoothTouch="false"
+      data-touchMultiplier="1.5"
+      data-easing="(t) => (t === 1 ? 1 : 1 - Math.pow(2, -10 * t))"
+      data-useOverscroll="true"
+      data-useControls="true"
+      data-useAnchor="true"
+      data-useRaf="true"
+      data-infinite="false"
+      defer
+      src="https://assets-global.website-files.com/645e0e1ff7fdb6dc8c85f3a2/64a5544a813c7253b90f2f50_lenis-offbrand.txt">
+  </script>  -->
+  <!--  Copyright  -->
+  <script>
+    Webflow.push(function() {
+      $('.is-year').text(new Date().getFullYear());
+    });
+  </script>
+  <!--  GTM Event for email form  -->
+  <script>
+    // Initialize dataLayer
+    window.dataLayer = window.dataLayer || [];
+    // Debug dataLayer pushes
+    window.dataLayer.push = function(obj) {
+      Array.prototype.push.call(this, obj);
+    };
+    // Wait for the DOM to load
+    document.addEventListener('DOMContentLoaded', (event) => {
+      // Form submission handler for GTM
+      const formSelector = '#email-form';
+      const formElement = document.querySelector(formSelector);
+      if (formElement) {
+        console.log('Email FormElement check passed!');
+        formElement.addEventListener('submit', (event) => {
+          if (event.target === formElement) {
+            console.log("Email Form submitted - pushing to dataLayer");
+            // Push to dataLayer
+            window.dataLayer.push({
+              'event': 'NewsletterFormSent'
+            });
+            // Additional debug logging
+          }
+        }, true); // Using capture phase
+      } else {
+        console.log('**Error:** Form element not found with selector ' + formSelector);
+      }
+    });
+  </script>
+  <!--  Mixpanel Library Loader  -->
+  <script type="text/javascript">
+  (function (f, b) {
+    if (!b.__SV) {
+      var e, g, i, h;
+      window.mixpanel = b;
+      b._i = [];
+      b.init = function (e, f, c) {
+        function g(a, d) {
+          var b = d.split(".");
+          2 == b.length && ((a = a[b[0]]), (d = b[1]));
+          a[d] = function () {
+            a.push([d].concat(Array.prototype.slice.call(arguments, 0)));
+          };
+        }
+        var a = b;
+        "undefined" !== typeof c ? (a = b[c] = []) : (c = "mixpanel");
+        a.people = a.people || [];
+        a.toString = function (a) {
+          var d = "mixpanel";
+          "mixpanel" !== c && (d += "." + c);
+          a || (d += " (stub)");
+          return d;
+        };
+        a.people.toString = function () {
+          return a.toString(1) + ".people (stub)";
+        };
+        i = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister identify name_tag set_config reset opt_in_tracking opt_out_tracking has_opted_in_tracking has_opted_out_tracking clear_opt_in_out_tracking start_batch_senders people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");
+        for (h = 0; h < i.length; h++) g(a, i[h]);
+        var j = "set set_once union unset remove delete".split(" ");
+        a.get_group = function () {
+          function b(c) {
+            d[c] = function () {
+              call2_args = arguments;
+              call2 = [c].concat(Array.prototype.slice.call(call2_args, 0));
+              a.push([e, call2]);
+            };
+          }
+          for (var d = {}, e = ["get_group"].concat(Array.prototype.slice.call(arguments, 0)), c = 0; c < j.length; c++) b(j[c]);
+          return d;
+        };
+        b._i.push([e, f, c]);
+      };
+      b.__SV = 1.2;
+      e = f.createElement("script");
+      e.type = "text/javascript";
+      e.async = !0;
+      e.src =
+        typeof MIXPANEL_CUSTOM_LIB_URL !== "undefined"
+          ? MIXPANEL_CUSTOM_LIB_URL
+          : f.location.protocol === "file:" && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)
+          ? "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js"
+          : "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+      g = f.getElementsByTagName("script")[0];
+      g.parentNode.insertBefore(e, g);
+    }
+  })(document, window.mixpanel || []);
+</script>
+  <!--  Mixpanel Init - Pageview Only  -->
+  <script>
+  mixpanel.init("649ae68a06e6e9a89c8c44ba1d8ca1ef", {
+    autocapture: {
+      pageview: 'full-url',  // or 'pathname'
+      click: false,
+      scroll: false,
+      input: false,
+      submit: false,
+      capture_text_content: false
+    }
+  });
+</script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var form = document.getElementById("wf-form-Modal-Email");
+    if (!form) return;
+    form.addEventListener("submit", function () {
+      var emailInput = document.getElementById("Modal-Email-3");
+      var email = emailInput ? emailInput.value.trim() : "";
+      if (email) {
+        // Set email as a people property (without changing distinct_id)
+        mixpanel.people.set({ $email: email });
+        // Track form submit event with email property
+        mixpanel.track("email_form_submit", {
+          email: email
+        });
+      }
+    });
+  });
+</script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    mixpanel.track_forms('#wf-form-Modal-Email', 'email_form_submit', function () {
+      var emailInput = document.getElementById("Modal-Email-3");
+      var email = emailInput ? emailInput.value.trim() : "";
+      // Don't change distinct_id, just set email as a property
+      if (email) {
+        mixpanel.people.set({ $email: email });
+      }
+      return {
+        email: email
+      };
+    });
+  });
+</script>
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("wf-form-Modal-Email");
+    const emailInput = document.getElementById("Modal-Email-3");
+    if (!form || !emailInput || typeof MutationObserver === "undefined") return;
+    let hasTracked = false; // prevent double tracking
+    const observer = new MutationObserver((mutationsList) => {
+      if (hasTracked) return;
+      for (const mutation of mutationsList) {
+        if (mutation.type === "childList") {
+          const successNode = Array.from(mutation.addedNodes).find(
+            (node) =>
+              node.nodeType === 1 &&
+              typeof node.innerText === "string" &&
+              node.innerText.toLowerCase().includes("thank")
+          );
+          if (successNode) {
+            const email = emailInput.value.trim();
+            if (email && typeof mixpanel !== "undefined") {
+              mixpanel.people.set({ $email: email });
+              mixpanel.track("email_form_submit", { email: email });
+              hasTracked = true;
+              observer.disconnect();
+              break;
+            }
+          }
+        }
+      }
+    });
+    observer.observe(form, { childList: true, subtree: true });
+  });
+</script>
+  <script defer="">
+  document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('email-form');
+    if (!form) {
+        return;
+    }
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const formData = new FormData(form);
+        const customerEmail = formData.get('customerEmail');
+        const jsonData = {
+            email: customerEmail
+        };
+        fetch('https://ic-proxy-preview.marinade-finance1324.workers.dev/newsletter', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(jsonData)
+        })
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+        })
+        .catch(error => {
+        });
+    });
+});
+</script>
+  <!-- FAQs auto-close -->
+  <script defer="">
+$('[data-click="faq"]').click(function(){
+  if(!$(this).is('.open')){
+    $('[data-click="faq"].open').each((i, item)=>{
+      item.click();
+    });
+    $(this).addClass('open');    
+  }
+  else{
+    $(this).removeClass('open');
+  }
+});
+</script>
+  <!--  Liquid TVL Fetch + rewrite  -->
+  <script defer="">
+const apiCache = new Map();
+async function cachedFetch(url) {
+  const today = new Date().toISOString().split('T')[0];
+  const urlString = url + '_' + today;
+  if (apiCache.has(urlString)) {
+    return apiCache.get(urlString);
+  }
+  const response = await fetch(url);
+  const data = await response.json();
+  apiCache.set(urlString, data);
+  return data;
+}
+function formatNumber(num) {
+  return Math.round(num).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+}
+async function fetchAndUpdateLiquidData() {
+  try {
+    const msolApyUrl = 'https://apy.marinade.finance/v1/rolling-apy/liquid-token/mSOL?window=1209600';
+    const tvlUrl = 'https://api.marinade.finance/tlv';
+    const [msolData, tvlData] = await Promise.all([
+      cachedFetch(msolApyUrl),
+      cachedFetch(tvlUrl)
+    ]);
+    const liquidApy = msolData.values[msolData.values.length - 1] * 100;
+    const liquidApyEl = document.getElementById('liquid-apy');
+    if (liquidApyEl) {
+      liquidApyEl.textContent = `${liquidApy.toFixed(2)}% APY`;
+    }
+    const liquidSol = tvlData.total_virtual_staked_sol;
+    const liquidTvlEl = document.getElementById('liquid-tvl');
+    if (liquidTvlEl) {
+      liquidTvlEl.textContent = formatNumber(liquidSol) + ' SOL';
+    }
+  } catch (error) {
+    console.error('Failed to load Liquid data:', error);
+  }
+}
+document.addEventListener("DOMContentLoaded", fetchAndUpdateLiquidData);
+</script>
+  <!-- Hero GSAP -->
+  <script defer="">
+document.addEventListener('DOMContentLoaded', function() {
+ gsap.registerPlugin(ScrollTrigger);
+ function splitTextIntoWords(element) {
+   const text = element.textContent;
+   const words = text.split(' ');
+   element.innerHTML = '';
+   words.forEach((word, index) => {
+     const wordSpan = document.createElement('span');
+     wordSpan.textContent = word;
+     wordSpan.style.display = 'inline-block';
+     wordSpan.classList.add('word');
+     if (index < words.length - 1) {
+       wordSpan.innerHTML += '&nbsp;';
+     }
+     element.appendChild(wordSpan);
+   });
+ }
+ const headingSelectors = [
+   '.r_heading-style-h1-italic', 
+   '.r_hp_banner_item-heading-italic',
+   '.is-gsap-animated'
+ ];
+ headingSelectors.forEach(selector => {
+	const headings = document.querySelectorAll(selector);
+   headings.forEach((heading) => {
+     splitTextIntoWords(heading);
+     const words = heading.querySelectorAll('.word');
+     gsap.set(words, { 
+       opacity: 0,
+       y: 25,
+       rotationX: 45,
+       transformOrigin: "0% 50%"
+     });
+     gsap.to(words, {
+       opacity: 1,
+       y: 0,
+       rotationX: 0,
+       duration: 0.8,
+       ease: "power2.out",
+       stagger: 0.12,
+       scrollTrigger: {
+         trigger: heading,
+         start: "top 85%",
+         toggleActions: "play none none none"
+       }
+     });
+   });
+ });
+});
+</script>
+  <!--  Video slider hover states  -->
+  <script defer="">
+document.addEventListener('DOMContentLoaded', function() {
+  const initVideoHoverControls = () => {
+    const videoElements = document.querySelectorAll('.r_hp_slider_slide-image video');
+    videoElements.forEach(video => {
+      if (video.dataset.hoverInit) return;
+      video.dataset.hoverInit = 'true';
+      const slideElement = video.closest('.r_hp_slider_slide-image');
+      if (!slideElement) return;
+      const handleResponsivePlayback = () => {
+        const isDesktop = window.innerWidth >= 980;
+        if (isDesktop) {
+          video.pause();
+          slideElement.removeEventListener('mouseenter', slideElement.playHandler);
+          slideElement.removeEventListener('mouseleave', slideElement.pauseHandler);
+          slideElement.playHandler = () => video.play();
+          slideElement.pauseHandler = () => video.pause();
+          slideElement.addEventListener('mouseenter', slideElement.playHandler);
+          slideElement.addEventListener('mouseleave', slideElement.pauseHandler);
+        } else {
+          slideElement.removeEventListener('mouseenter', slideElement.playHandler);
+          slideElement.removeEventListener('mouseleave', slideElement.pauseHandler);
+          video.play();
+        }
+      };
+      handleResponsivePlayback();
+      window.addEventListener('resize', () => {
+        setTimeout(handleResponsivePlayback, 100);
+      });
+    });
+  };
+  initVideoHoverControls();
+  const observer = new MutationObserver(() => {
+    initVideoHoverControls();
+  });
+  observer.observe(document.body, {
+    childList: true,
+    subtree: true
+  });
+});
+</script>
+  <!--  Strategies Tooltip  -->
+  <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.min.js"></script>
+  <script src="https://unpkg.com/tippy.js@6/dist/tippy-bundle.umd.js"></script>
+  <script>
+    tippy('.link', {
+    theme: 'custom',
+});
+</script>
+  <script src="https://hubspotonwebflow.com/assets/js/form-124.js" type="text/javascript" integrity="sha384-bjyNIOqAKScdeQ3THsDZLGagNN56B4X2Auu9YZIGu+tA/PlggMk4jbWruG/P6zYj" crossorigin="anonymous"></script>
+</body>
+</html>
